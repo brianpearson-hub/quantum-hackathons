@@ -236,7 +236,14 @@ function render(filter='all', query=''){
     if(filter==='2025') return h.year===2025;
     if(filter==='2026') return h.year===2026;
     return true;
-  }).sort((a,b)=>a.dateSort.localeCompare(b.dateSort));
+  }).sort((a,b)=>{
+    const aUpcoming = isUpcoming(a);
+    const bUpcoming = isUpcoming(b);
+    if(aUpcoming && !bUpcoming) return -1;
+    if(!aUpcoming && bUpcoming) return 1;
+    if(aUpcoming && bUpcoming) return a.dateSort.localeCompare(b.dateSort);
+    return b.dateSort.localeCompare(a.dateSort);
+  });
 
   if(!filtered.length){ main.innerHTML=`<div class="empty"><h3>No hackathons found</h3><p>Try adjusting your search or filters.</p></div>`; return; }
   const y25=filtered.filter(h=>h.year===2025), y26=filtered.filter(h=>h.year===2026);
