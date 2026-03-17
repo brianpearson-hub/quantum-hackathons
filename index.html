@@ -243,8 +243,8 @@ function render(filter='all', query=''){
   if(!filtered.length){ main.innerHTML=`<div class="empty"><h3>No hackathons found</h3><p>Try adjusting your search or filters.</p></div>`; return; }
   const y25=filtered.filter(h=>h.year===2025), y26=filtered.filter(h=>h.year===2026);
   let html='';
-  if(y25.length) html+=`<div class="year-section"><div class="year-label">2025 &mdash; ${y25.length} event${y25.length!==1?'s':''}</div><div class="grid">${y25.map(renderCard).join('')}</div></div>`;
   if(y26.length) html+=`<div class="year-section"><div class="year-label">2026 &mdash; ${y26.length} event${y26.length!==1?'s':''}</div><div class="grid">${y26.map(renderCard).join('')}</div></div>`;
+  if(y25.length) html+=`<div class="year-section"><div class="year-label">2025 &mdash; ${y25.length} event${y25.length!==1?'s':''}</div><div class="grid">${y25.map(renderCard).join('')}</div></div>`;
   main.innerHTML=html;
 }
 
