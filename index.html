@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quantum Hackathon Directory 2025–2026 | qBraid</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    :root {
+      --bg:       #09090b;
+      --nav-bg:   #0c0c0f;
+      --surface:  #111116;
+      --surface2: #18181f;
+      --border:   #1e1e28;
+      --border2:  #2a2a38;
+      --pink:     #e8208a;
+      --violet:   #7c3aed;
+      --accent2:  #a855f7;
+      --green:    #34d399;
+      --yellow:   #fbbf24;
+      --text:     #f4f4f5;
+      --muted:    #71717a;
+      --muted2:   #52525b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, sans-serif; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+
+    /* NAV */
+    nav { background: var(--nav-bg); border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 200; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-logo img { height: 26px; width: auto; }
+    .nav-pill { background: linear-gradient(135deg,rgba(232,32,138,.15),rgba(124,58,237,.15)); border: 1px solid rgba(232,32,138,.3); color: #e879f9; font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; }
+    .nav-right { display: flex; align-items: center; gap: 16px; }
+    .nav-link { color: var(--muted); font-size: 13px; text-decoration: none; transition: color .15s; }
+    .nav-link:hover { color: var(--text); }
+    .nav-cta { background: linear-gradient(135deg, var(--pink), var(--violet)); color: #fff; font-size: 13px; font-weight: 600; padding: 7px 18px; border-radius: 8px; text-decoration: none; transition: opacity .15s; }
+    .nav-cta:hover { opacity: .85; }
+
+    /* HERO */
+    header { background: var(--nav-bg); border-bottom: 1px solid var(--border); padding: 56px 24px 48px; text-align: center; position: relative; overflow: hidden; }
+    header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 65% 50% at 50% -5%, rgba(232,32,138,.2) 0%, transparent 70%), radial-gradient(ellipse 40% 35% at 80% 60%, rgba(124,58,237,.12) 0%, transparent 70%); pointer-events: none; }
+    .eyebrow { display: inline-block; background: linear-gradient(135deg,rgba(232,32,138,.12),rgba(124,58,237,.12)); border: 1px solid rgba(232,32,138,.25); color: #e879f9; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; padding: 5px 14px; border-radius: 20px; margin-bottom: 20px; }
+    header h1 { font-size: clamp(28px,5vw,48px); font-weight: 800; line-height: 1.15; margin-bottom: 14px; letter-spacing: -.02em; }
+    .grad { background: linear-gradient(135deg, var(--pink) 0%, var(--accent2) 50%, var(--violet) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    header p { color: var(--muted); font-size: 15px; max-width: 520px; margin: 0 auto 32px; line-height: 1.65; }
+    .stats-row { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+    .stat-chip { background: var(--surface2); border: 1px solid var(--border2); border-radius: 10px; padding: 10px 22px; text-align: center; }
+    .stat-chip .num { font-size: 26px; font-weight: 800; background: linear-gradient(135deg, var(--pink), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1; }
+    .stat-chip .lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-top: 4px; }
+
+    /* CONTROLS */
+    .controls { position: sticky; top: 60px; z-index: 100; background: rgba(9,9,11,.97); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border); padding: 12px 24px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .search-wrap { flex: 1; min-width: 200px; position: relative; }
+    .search-wrap svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--muted2); pointer-events: none; }
+    .controls input { width: 100%; background: var(--surface); border: 1px solid var(--border2); color: var(--text); padding: 8px 12px 8px 36px; border-radius: 8px; font-size: 14px; font-family: inherit; outline: none; transition: border-color .2s; }
+    .controls input::placeholder { color: var(--muted2); }
+    .controls input:focus { border-color: var(--pink); }
+    .filter-btns { display: flex; gap: 6px; flex-wrap: wrap; }
+    .filter-btn { background: var(--surface); border: 1px solid var(--border2); color: var(--muted); padding: 7px 14px; border-radius: 8px; font-size: 13px; font-weight: 500; font-family: inherit; cursor: pointer; transition: all .15s; white-space: nowrap; }
+    .filter-btn:hover { border-color: var(--pink); color: var(--text); }
+    .filter-btn.active { background: linear-gradient(135deg,rgba(232,32,138,.15),rgba(124,58,237,.15)); border-color: rgba(232,32,138,.5); color: #e879f9; }
+
+    /* MAIN */
+    main { max-width: 1400px; margin: 0 auto; padding: 36px 24px 80px; }
+    .year-section { margin-bottom: 52px; }
+    .year-label { font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted2); margin-bottom: 18px; display: flex; align-items: center; gap: 12px; }
+    .year-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(340px,1fr)); gap: 14px; }
+
+    /* CARD */
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 14px; transition: border-color .2s, transform .15s, box-shadow .2s; position: relative; overflow: hidden; }
+    .card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--pink), var(--violet)); opacity: 0; transition: opacity .2s; }
+    .card:hover { border-color: var(--border2); transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,.4); }
+    .card:hover::before { opacity: 1; }
+    .card.past { opacity: .5; }
+    .card.featured { border-color: rgba(232,32,138,.3); background: linear-gradient(135deg,#111116,#14101a); }
+    .card.featured::before { opacity: 1; }
+
+    .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+    .card-title { font-size: 15px; font-weight: 700; color: var(--text); line-height: 1.3; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+    .card-org { font-size: 12px; color: var(--muted); margin-top: 3px; }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 6px; }
+    .status-dot.upcoming { background: var(--green); box-shadow: 0 0 8px rgba(52,211,153,.6); }
+    .status-dot.past { background: var(--muted2); }
+    .qbraid-badge { font-size: 10px; background: linear-gradient(135deg,rgba(232,32,138,.2),rgba(124,58,237,.2)); color: #e879f9; padding: 2px 7px; border-radius: 10px; font-weight: 600; border: 1px solid rgba(232,32,138,.3); white-space: nowrap; }
+
+    .card-meta { display: flex; flex-wrap: wrap; gap: 8px; }
+    .meta-item { display: flex; align-items: center; gap: 5px; color: var(--muted); font-size: 12px; }
+    .tag { display: inline-block; padding: 3px 9px; border-radius: 20px; font-size: 11px; font-weight: 600; }
+    .tag.in-person { background: rgba(52,211,153,.1); color: #6ee7b7; border: 1px solid rgba(52,211,153,.2); }
+    .tag.virtual   { background: rgba(168,85,247,.1);  color: #c084fc; border: 1px solid rgba(168,85,247,.2); }
+    .tag.hybrid    { background: rgba(251,191,36,.1);  color: #fcd34d; border: 1px solid rgba(251,191,36,.2); }
+
+    .divider { height: 1px; background: var(--border); }
+    .sponsors-label { font-size: 10px; font-weight: 600; color: var(--muted2); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 8px; }
+    .sponsor-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+    .sponsor-tag { background: rgba(124,58,237,.1); color: #a78bfa; font-size: 11px; font-weight: 500; padding: 3px 8px; border-radius: 5px; border: 1px solid rgba(124,58,237,.2); }
+    .card.featured .sponsor-tag { background: rgba(232,32,138,.1); color: #f472b6; border-color: rgba(232,32,138,.2); }
+    .card-link { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 500; color: #e879f9; text-decoration: none; margin-top: auto; width: fit-content; transition: color .15s; }
+    .card-link:hover { color: #f0abfc; }
+
+    .empty { text-align: center; padding: 80px 24px; color: var(--muted); }
+    .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
+
+    footer { text-align: center; padding: 28px 24px; color: var(--muted2); font-size: 12px; border-top: 1px solid var(--border); background: var(--nav-bg); }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+    .footer-logo { height: 18px; vertical-align: middle; margin-right: 6px; opacity: .7; }
+
+    @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } .nav-link { display: none; } }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="https://qbraid.com" target="_blank" class="nav-logo">
+    <img src="qbraidwhite.png" alt="qBraid" />
+  </a>
+  <div class="nav-pill">Hackathon Directory</div>
+  <div class="nav-right">
+    <a href="https://qbraid.com" class="nav-link" target="_blank">qBraid.com</a>
+    <a href="https://account.qbraid.com" class="nav-cta" target="_blank">Launch qBraid</a>
+  </div>
+</nav>
+
+<header>
+  <div class="eyebrow">Quantum Computing</div>
+  <h1>Quantum Hackathon Directory<br><span class="grad">2025 &ndash; 2026</span></h1>
+  <p>Every major quantum computing hackathon in one place. Dates, format, location, and known sponsors.</p>
+  <div class="stats-row">
+    <div class="stat-chip"><div class="num" id="total-count">—</div><div class="lbl">Events</div></div>
+    <div class="stat-chip"><div class="num" id="upcoming-count">—</div><div class="lbl">Upcoming</div></div>
+    <div class="stat-chip"><div class="num" id="country-count">—</div><div class="lbl">Countries</div></div>
+    <div class="stat-chip"><div class="num" id="sponsor-count">—</div><div class="lbl">Sponsors</div></div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="search-wrap">
+    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" id="search" placeholder="Search by name, sponsor, location…" autocomplete="off" />
+  </div>
+  <div class="filter-btns">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="upcoming">Upcoming</button>
+    <button class="filter-btn" data-filter="in-person">In-Person</button>
+    <button class="filter-btn" data-filter="virtual">Virtual</button>
+    <button class="filter-btn" data-filter="hybrid">Hybrid</button>
+    <button class="filter-btn" data-filter="2025">2025</button>
+    <button class="filter-btn" data-filter="2026">2026</button>
+  </div>
+</div>
+
+<main id="main"></main>
+
+<footer>
+  <img src="qbraidwhite.png" alt="qBraid" class="footer-logo" />
+  Built by <a href="https://qbraid.com" target="_blank">qBraid</a> &nbsp;&middot;&nbsp;
+  Data from public event listings &nbsp;&middot;&nbsp;
+  Last updated March 2026 &nbsp;&middot;&nbsp;
+  <a href="https://account.qbraid.com" target="_blank">Launch qBraid Lab</a>
+</footer>
+
+<script>
+const TODAY = new Date('2026-03-17');
+const HACKATHONS = [
+  { name:"iQuHACK 2025", org:"MIT Interdisciplinary Quantum Hackathon", year:2025, date:"Feb 1–2, 2025", dateSort:"2025-02-01", location:"Cambridge, MA (MIT)", format:"hybrid", sponsors:["IonQ","QuEra","IBM","Classiq","State Street","Alice & Bob","NVIDIA"], url:"https://www.iquise.mit.edu/iQuHACK" },
+  { name:"QHack 2025", org:"Xanadu / PennyLane", year:2025, date:"Feb 17–28, 2025", dateSort:"2025-02-17", location:"Virtual (Global)", format:"virtual", sponsors:["Xanadu","Amazon Braket","NVIDIA","IBM"], url:"https://qhack.ai" },
+  { name:"Classiq Coding Competition 2025", org:"Classiq Technologies", year:2025, date:"Spring 2025", dateSort:"2025-03-01", location:"Virtual (Global)", format:"virtual", sponsors:["Classiq","IBM","NVIDIA"], url:"https://classiq.io/competition" },
+  { name:"Quantathon V2", org:"SC Quantum / Univ. of South Carolina", year:2025, date:"Spring 2025", dateSort:"2025-03-22", location:"Columbia, SC", format:"in-person", sponsors:["IBM Quantum","Quantinuum","Rigetti"], url:"https://scquantum.org" },
+  { name:"YQuantum 2025", org:"Yale Quantum Institute", year:2025, date:"Apr 5–6, 2025", dateSort:"2025-04-05", location:"New Haven, CT (Yale)", format:"in-person", sponsors:["IonQ","IBM","Classiq","AWS","Quantinuum"], url:"https://yquantum.dev" },
+  { name:"QAI Venture Hackathon 2025", org:"CERN / GESDA", year:2025, date:"Apr 2025", dateSort:"2025-04-10", location:"Geneva, Switzerland (CERN)", format:"in-person", sponsors:["CERN","GESDA","IBM Quantum","Pasqal"], url:"https://qai-venture.com" },
+  { name:"QSE Hackathon — EPFL 2025", org:"EPFL Quantum Science & Engineering", year:2025, date:"Spring 2025", dateSort:"2025-04-25", location:"Lausanne, Switzerland", format:"in-person", sponsors:["IBM Quantum","IQM","Pasqal"], url:"https://www.epfl.ch/research/domains/quantum" },
+  { name:"ETH Quantum Hackathon 2025", org:"ETH Zurich Quantum Center", year:2025, date:"May 2025", dateSort:"2025-05-10", location:"Zurich, Switzerland", format:"in-person", sponsors:["IBM Quantum","IQM","Quantinuum"], url:"https://ethquantum.ch" },
+  { name:"NYUAD Quantum for Social Good 2025", org:"NYU Abu Dhabi", year:2025, date:"May 2025", dateSort:"2025-05-15", location:"Abu Dhabi, UAE", format:"in-person", sponsors:["IBM Quantum","QC Ware","Classiq"], url:"https://nyuad.nyu.edu" },
+  { name:"unitaryHACK 2025", org:"Unitary Fund", year:2025, date:"May–Jun 2025", dateSort:"2025-05-20", location:"Virtual (Global)", format:"virtual", sponsors:["Unitary Fund","IBM","AWS","Google","Classiq","IonQ"], url:"https://unitaryhack.dev" },
+  { name:"Quandela Quantum Hackathon 2025", org:"Quandela", year:2025, date:"Summer 2025", dateSort:"2025-09-15", location:"Paris, France", format:"hybrid", sponsors:["Quandela","AWS","Pasqal"], url:"https://quandela.com" },
+  { name:"IYQ Quantum Hackathon — Vienna", org:"International Year of Quantum / IQOQI", year:2025, date:"Oct 2025", dateSort:"2025-10-01", location:"Vienna, Austria", format:"in-person", sponsors:["UNESCO","IUPAP","APS","IBM Quantum"], url:"https://quantum2025.org" },
+  { name:"MIT Quantum Games Hackathon 2025", org:"MIT Game Lab / CQE", year:2025, date:"Oct 2025", dateSort:"2025-10-18", location:"Cambridge, MA", format:"in-person", sponsors:["IBM Quantum","MIT CQE"], url:"https://games.mit.edu" },
+  { name:"QIA Quantum Internet Hackathon 2025", org:"Quantum Internet Alliance", year:2025, date:"Nov 2025", dateSort:"2025-11-10", location:"Hybrid – European Nodes", format:"hybrid", sponsors:["QIA","QuTech","AWS","European Commission"], url:"https://quantuminternetalliance.org" },
+  { name:"Q2B Hackathon 2025", org:"QC Ware / Q2B Conference", year:2025, date:"Dec 2025", dateSort:"2025-12-08", location:"Santa Clara, CA", format:"in-person", sponsors:["QC Ware","Google","AWS","Quantinuum"], url:"https://q2b.qcware.com" },
+  { name:"iQuHACK 2026", org:"MIT Interdisciplinary Quantum Hackathon", year:2026, date:"Feb 2026", dateSort:"2026-02-07", location:"Cambridge, MA (MIT)", format:"hybrid", sponsors:["IonQ","QuEra","IBM","Alice & Bob","NVIDIA","BlueQubit","State Street","Classiq"], url:"https://www.iquise.mit.edu/iQuHACK" },
+  { name:"QHack 2026", org:"Xanadu / PennyLane", year:2026, date:"Feb 2026", dateSort:"2026-02-16", location:"Virtual (Global)", format:"virtual", sponsors:["Xanadu","Amazon Braket","NVIDIA"], url:"https://qhack.ai" },
+  { name:"YQuantum 2026", org:"Yale Quantum Institute", year:2026, date:"Apr 2026", dateSort:"2026-04-04", location:"New Haven, CT (Yale)", format:"in-person", sponsors:["IonQ","IBM","Classiq","AWS"], url:"https://yquantum.dev" },
+  { name:"QAI Venture Hackathon 2026", org:"CERN / GESDA", year:2026, date:"Spring 2026", dateSort:"2026-04-15", location:"Geneva, Switzerland", format:"in-person", sponsors:["CERN","GESDA","IBM Quantum"], url:"https://qai-venture.com" },
+  { name:"QSE Hackathon — EPFL 2026", org:"EPFL Quantum Science & Engineering", year:2026, date:"Spring 2026", dateSort:"2026-04-20", location:"Lausanne, Switzerland", format:"in-person", sponsors:["IBM Quantum","IQM"], url:"https://www.epfl.ch/research/domains/quantum" },
+  { name:"NYUAD Quantum for Social Good 2026", org:"NYU Abu Dhabi", year:2026, date:"May 2026", dateSort:"2026-05-10", location:"Abu Dhabi, UAE", format:"in-person", sponsors:["IBM Quantum","QC Ware"], url:"https://nyuad.nyu.edu" },
+  { name:"unitaryHACK 2026", org:"Unitary Fund", year:2026, date:"May–Jun 2026", dateSort:"2026-05-20", location:"Virtual (Global)", format:"virtual", sponsors:["Unitary Fund","IBM","Google","AWS"], url:"https://unitaryhack.dev" },
+  { name:"Quantum.Tech World Hackathon 2026", org:"qBraid + Quantum.Tech World (proposed)", year:2026, date:"Jun 20–21, 2026", dateSort:"2026-06-20", location:"Boston, MA", format:"in-person", featured:true, sponsors:["qBraid","IonQ","QuEra","IBM","Alice & Bob","Rigetti"], url:"https://www.alphaevents.com/events-quantumtechus" },
+  { name:"IYQ Global Quantum Hackathon 2026", org:"International Year of Quantum", year:2026, date:"2026", dateSort:"2026-07-01", location:"Multiple Locations (Global)", format:"hybrid", sponsors:["UNESCO","IUPAP","APS","IBM","Quantinuum"], url:"https://quantum2025.org" },
+  { name:"QIA Quantum Internet Hackathon 2026", org:"Quantum Internet Alliance", year:2026, date:"Nov 2026", dateSort:"2026-11-01", location:"Hybrid – European Nodes", format:"hybrid", sponsors:["QIA","QuTech","European Commission"], url:"https://quantuminternetalliance.org" }
+];
+
+const IC = {
+  cal:`<svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>`,
+  pin:`<svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
+  ext:`<svg width="10" height="10" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`
+};
+
+function isUpcoming(h){ return new Date(h.dateSort) >= TODAY; }
+
+function renderCard(h){
+  const past = !isUpcoming(h);
+  const dot = isUpcoming(h) ? `<div class="status-dot upcoming" title="Upcoming"></div>` : `<div class="status-dot past" title="Past"></div>`;
+  const fmtLabel = h.format==='in-person' ? 'In-Person' : h.format.charAt(0).toUpperCase()+h.format.slice(1);
+  const spons = h.sponsors.map(s=>`<span class="sponsor-tag">${s}</span>`).join('');
+  const badge = h.featured ? `<span class="qbraid-badge">qBraid</span>` : '';
+  return `<div class="card${past?' past':''}${h.featured?' featured':''}" data-format="${h.format}" data-year="${h.year}" data-search="${[h.name,h.org,h.location,...h.sponsors].join(' ').toLowerCase()}">
+    <div class="card-top">
+      <div>
+        <div class="card-title">${h.name} ${badge}</div>
+        <div class="card-org">${h.org}</div>
+      </div>
+      ${dot}
+    </div>
+    <div class="card-meta">
+      <span class="meta-item">${IC.cal} ${h.date}</span>
+      <span class="meta-item">${IC.pin} ${h.location}</span>
+      <span class="tag ${h.format}">${fmtLabel}</span>
+    </div>
+    <div class="divider"></div>
+    <div>
+      <div class="sponsors-label">Known Sponsors</div>
+      <div class="sponsor-tags">${spons}</div>
+    </div>
+    ${h.url?`<a class="card-link" href="${h.url}" target="_blank" rel="noopener">Event site ${IC.ext}</a>`:''}
+  </div>`;
+}
+
+function render(filter='all', query=''){
+  const main = document.getElementById('main');
+  const q = query.toLowerCase().trim();
+  let filtered = HACKATHONS.filter(h=>{
+    const s=[h.name,h.org,h.location,...h.sponsors].join(' ').toLowerCase();
+    if(q && !s.includes(q)) return false;
+    if(filter==='upcoming') return isUpcoming(h);
+    if(filter==='in-person') return h.format==='in-person';
+    if(filter==='virtual') return h.format==='virtual';
+    if(filter==='hybrid') return h.format==='hybrid';
+    if(filter==='2025') return h.year===2025;
+    if(filter==='2026') return h.year===2026;
+    return true;
+  }).sort((a,b)=>a.dateSort.localeCompare(b.dateSort));
+
+  if(!filtered.length){ main.innerHTML=`<div class="empty"><h3>No hackathons found</h3><p>Try adjusting your search or filters.</p></div>`; return; }
+  const y25=filtered.filter(h=>h.year===2025), y26=filtered.filter(h=>h.year===2026);
+  let html='';
+  if(y25.length) html+=`<div class="year-section"><div class="year-label">2025 &mdash; ${y25.length} event${y25.length!==1?'s':''}</div><div class="grid">${y25.map(renderCard).join('')}</div></div>`;
+  if(y26.length) html+=`<div class="year-section"><div class="year-label">2026 &mdash; ${y26.length} event${y26.length!==1?'s':''}</div><div class="grid">${y26.map(renderCard).join('')}</div></div>`;
+  main.innerHTML=html;
+}
+
+function updateStats(){
+  document.getElementById('total-count').textContent=HACKATHONS.length;
+  document.getElementById('upcoming-count').textContent=HACKATHONS.filter(isUpcoming).length;
+  const locs=new Set(HACKATHONS.map(h=>{ if(h.location.includes('Global')||h.location.includes('Virtual')||h.location.includes('European')) return '_v'; const p=h.location.split(','); return p[p.length-1].trim(); }));
+  document.getElementById('country-count').textContent=locs.size;
+  document.getElementById('sponsor-count').textContent=new Set(HACKATHONS.flatMap(h=>h.sponsors)).size;
+}
+
+let currentFilter='all';
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter=btn.dataset.filter;
+    render(currentFilter, document.getElementById('search').value);
+  });
+});
+document.getElementById('search').addEventListener('input',e=>render(currentFilter,e.target.value));
+updateStats(); render();
+</script>
+</body>
+</html>
