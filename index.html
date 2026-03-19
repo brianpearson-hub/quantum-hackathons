@@ -86,7 +86,7 @@
     .status-dot.past { background: var(--muted2); }
     .qbraid-badge { font-size: 10px; background: linear-gradient(135deg,rgba(232,32,138,.2),rgba(124,58,237,.2)); color: #e879f9; padding: 2px 7px; border-radius: 10px; font-weight: 600; border: 1px solid rgba(232,32,138,.3); white-space: nowrap; }
 
-    .card-meta { display: flex; flex-wrap: wrap; gap: 8px; }
+    .card-meta { display: flex; flex-direction: column; gap: 6px; margin-bottom: 4px; }
     .meta-item { display: flex; align-items: center; gap: 5px; color: var(--muted); font-size: 12px; }
     .tag { display: inline-block; padding: 3px 9px; border-radius: 20px; font-size: 11px; font-weight: 600; }
     .tag.in-person { background: rgba(52,211,153,.1); color: #6ee7b7; border: 1px solid rgba(52,211,153,.2); }
@@ -303,9 +303,9 @@ function renderCard(h){
       ${dot}
     </div>
     <div class="card-meta">
-      <span class="meta-item">${IC.cal} ${h.date}</span>
-      <span class="meta-item">${IC.pin} ${h.location}</span>
-      <span class="tag ${h.format}">${fmtLabel}</span>
+      <div class="meta-item">${IC.cal} ${h.date}</div>
+      <div class="meta-item">${IC.pin} ${h.location}</div>
+      <div><span class="tag ${h.format}">${fmtLabel}</span></div>
     </div>
     <div class="divider"></div>
     <div>
