@@ -102,6 +102,18 @@
     .empty { text-align: center; padding: 80px 24px; color: var(--muted); }
     .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
 
+    /* Sponsor banner */
+    .sponsor-strip { margin: 0 0 20px; overflow: hidden; position: relative; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 14px 0; background: rgba(255,255,255,0.02); }
+    .sponsor-strip::before, .sponsor-strip::after { content: ''; position: absolute; top: 0; width: 80px; height: 100%; z-index: 2; }
+    .sponsor-strip::before { left: 0; background: linear-gradient(to right, var(--bg), transparent); }
+    .sponsor-strip::after { right: 0; background: linear-gradient(to left, var(--bg), transparent); }
+    .sponsor-label { text-align: center; font-size: 10px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted2); margin-bottom: 10px; }
+    .sponsor-track { display: flex; gap: 0; white-space: nowrap; animation: scroll-sponsors 28s linear infinite; width: max-content; }
+    .sponsor-track:hover { animation-play-state: paused; }
+    @keyframes scroll-sponsors { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    .sponsor-item { display: inline-flex; align-items: center; gap: 7px; padding: 0 32px; font-size: 13px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+    .sponsor-item span { font-size: 16px; }
+
     .github-banner { text-align: center; padding: 14px 24px; background: linear-gradient(135deg, rgba(139,92,246,0.15), rgba(217,70,239,0.1)); border: 1px solid rgba(139,92,246,0.3); border-radius: 10px; margin: 0 24px 24px; font-size: 13px; color: var(--muted); }
     .github-banner a { color: #c084fc; text-decoration: none; font-weight: 600; }
     .github-banner a:hover { color: #f0abfc; }
@@ -148,6 +160,45 @@
     <button class="filter-btn" data-filter="hybrid">Hybrid</button>
     <button class="filter-btn" data-filter="2025">2025</button>
     <button class="filter-btn" data-filter="2026">2026</button>
+  </div>
+</div>
+
+<div class="sponsor-label">Quantum Ecosystem Partners</div>
+<div class="sponsor-strip">
+  <div class="sponsor-track" id="sponsor-track">
+    <div class="sponsor-item"><span>🟢</span> IonQ</div>
+    <div class="sponsor-item"><span>🔵</span> IBM Quantum</div>
+    <div class="sponsor-item"><span>🟣</span> NVIDIA</div>
+    <div class="sponsor-item"><span>⚪</span> QuEra Computing</div>
+    <div class="sponsor-item"><span>🟡</span> Rigetti Computing</div>
+    <div class="sponsor-item"><span>🔴</span> Connected DMV</div>
+    <div class="sponsor-item"><span>🟠</span> MIT iQuHACK</div>
+    <div class="sponsor-item"><span>🔵</span> Amazon Braket</div>
+    <div class="sponsor-item"><span>🟢</span> qBraid</div>
+    <div class="sponsor-item"><span>⚪</span> IQM Quantum</div>
+    <div class="sponsor-item"><span>🟣</span> Alice & Bob</div>
+    <div class="sponsor-item"><span>🟡</span> Classiq</div>
+    <div class="sponsor-item"><span>🔴</span> Unitary Fund</div>
+    <div class="sponsor-item"><span>🟠</span> Xanadu</div>
+    <div class="sponsor-item"><span>🔵</span> D-Wave</div>
+    <div class="sponsor-item"><span>🟢</span> MITRE</div>
+    <!-- duplicate for seamless loop -->
+    <div class="sponsor-item"><span>🟢</span> IonQ</div>
+    <div class="sponsor-item"><span>🔵</span> IBM Quantum</div>
+    <div class="sponsor-item"><span>🟣</span> NVIDIA</div>
+    <div class="sponsor-item"><span>⚪</span> QuEra Computing</div>
+    <div class="sponsor-item"><span>🟡</span> Rigetti Computing</div>
+    <div class="sponsor-item"><span>🔴</span> Connected DMV</div>
+    <div class="sponsor-item"><span>🟠</span> MIT iQuHACK</div>
+    <div class="sponsor-item"><span>🔵</span> Amazon Braket</div>
+    <div class="sponsor-item"><span>🟢</span> qBraid</div>
+    <div class="sponsor-item"><span>⚪</span> IQM Quantum</div>
+    <div class="sponsor-item"><span>🟣</span> Alice & Bob</div>
+    <div class="sponsor-item"><span>🟡</span> Classiq</div>
+    <div class="sponsor-item"><span>🔴</span> Unitary Fund</div>
+    <div class="sponsor-item"><span>🟠</span> Xanadu</div>
+    <div class="sponsor-item"><span>🔵</span> D-Wave</div>
+    <div class="sponsor-item"><span>🟢</span> MITRE</div>
   </div>
 </div>
 
