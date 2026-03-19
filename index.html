@@ -5,7 +5,7 @@
   <link rel="shortcut icon" href="favicon.svg">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quantum Hackathon Directory 2025–2026 | qBraid</title>
+  <title>Quantum Hackathon Directory 2024–2026 | qBraid</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
     :root {
@@ -209,6 +209,7 @@
     <button class="filter-btn" data-filter="hybrid">Hybrid</button>
     <button class="filter-btn" data-filter="2025">2025</button>
     <button class="filter-btn" data-filter="2026">2026</button>
+    <button class="filter-btn" data-filter="2024">2024</button>
   </div>
 </div>
 
@@ -317,6 +318,7 @@ function render(filter='all', query=''){
     if(filter==='hybrid') return h.format==='hybrid';
     if(filter==='2025') return h.year===2025;
     if(filter==='2026') return h.year===2026;
+    if(filter==='2024') return h.year===2024;
     return true;
   }).sort((a,b)=>{
     const aUpcoming = isUpcoming(a);
@@ -328,10 +330,11 @@ function render(filter='all', query=''){
   });
 
   if(!filtered.length){ main.innerHTML=`<div class="empty"><h3>No hackathons found</h3><p>Try adjusting your search or filters.</p></div>`; return; }
-  const y25=filtered.filter(h=>h.year===2025), y26=filtered.filter(h=>h.year===2026);
+  const y24=filtered.filter(h=>h.year===2024), y25=filtered.filter(h=>h.year===2025), y26=filtered.filter(h=>h.year===2026);
   let html='';
   if(y26.length) html+=`<div class="year-section"><div class="year-label">2026 &mdash; ${y26.length} event${y26.length!==1?'s':''}</div><div class="grid">${y26.map(renderCard).join('')}</div></div>`;
   if(y25.length) html+=`<div class="year-section"><div class="year-label">2025 &mdash; ${y25.length} event${y25.length!==1?'s':''}</div><div class="grid">${y25.map(renderCard).join('')}</div></div>`;
+  if(y24.length) html+=`<div class="year-section"><div class="year-label">2024 &mdash; ${y24.length} event${y24.length!==1?'s':''}</div><div class="grid">${y24.map(renderCard).join('')}</div></div>`;
   main.innerHTML=html;
 }
 
