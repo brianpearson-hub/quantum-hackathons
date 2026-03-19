@@ -111,7 +111,9 @@
     .sponsor-track { display: flex; gap: 0; white-space: nowrap; animation: scroll-sponsors 28s linear infinite; width: max-content; }
     .sponsor-track:hover { animation-play-state: paused; }
     @keyframes scroll-sponsors { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-    .sponsor-item { display: inline-flex; align-items: center; gap: 7px; padding: 0 32px; font-size: 13px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+    .sponsor-item { display: inline-flex; align-items: center; padding: 0 28px; white-space: nowrap; }
+    .sponsor-item img { height: 22px; width: auto; max-width: 90px; object-fit: contain; filter: brightness(0) invert(0.6); transition: filter .2s; opacity: 0.7; }
+    .sponsor-item img:hover { filter: brightness(0) invert(1); opacity: 1; }
     .sponsor-item span { font-size: 16px; }
 
     .github-banner { text-align: center; padding: 14px 24px; background: linear-gradient(135deg, rgba(139,92,246,0.15), rgba(217,70,239,0.1)); border: 1px solid rgba(139,92,246,0.3); border-radius: 10px; margin: 0 24px 24px; font-size: 13px; color: var(--muted); }
@@ -150,39 +152,39 @@
 <div class="sponsor-label">Quantum Ecosystem Partners</div>
 <div class="sponsor-strip">
   <div class="sponsor-track" id="sponsor-track">
-    <div class="sponsor-item"><span>🟢</span> IonQ</div>
-    <div class="sponsor-item"><span>🔵</span> IBM Quantum</div>
-    <div class="sponsor-item"><span>🟣</span> NVIDIA</div>
-    <div class="sponsor-item"><span>⚪</span> QuEra Computing</div>
-    <div class="sponsor-item"><span>🟡</span> Rigetti Computing</div>
-    <div class="sponsor-item"><span>🔴</span> Connected DMV</div>
-    <div class="sponsor-item"><span>🟠</span> MIT iQuHACK</div>
-    <div class="sponsor-item"><span>🔵</span> Amazon Braket</div>
-    <div class="sponsor-item"><span>🟢</span> qBraid</div>
-    <div class="sponsor-item"><span>⚪</span> IQM Quantum</div>
-    <div class="sponsor-item"><span>🟣</span> Alice & Bob</div>
-    <div class="sponsor-item"><span>🟡</span> Classiq</div>
-    <div class="sponsor-item"><span>🔴</span> Unitary Fund</div>
-    <div class="sponsor-item"><span>🟠</span> Xanadu</div>
-    <div class="sponsor-item"><span>🔵</span> D-Wave</div>
-    <div class="sponsor-item"><span>🟢</span> MITRE</div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/ionq.com" alt="IonQ"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/ibm.com" alt="IBM Quantum"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/nvidia.com" alt="NVIDIA"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/quera.com" alt="QuEra Computing"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/rigetti.com" alt="Rigetti Computing"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/connecteddmv.org" alt="Connected DMV"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/mit.edu" alt="MIT iQuHACK"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/amazon.com" alt="Amazon Braket"></div>
+    <div class="sponsor-item"><img src="https://cdn.prod.website-files.com/67766e0e4e4f74f02f5ddaa0/6778da6f69cc7a0553180b7c_Navbar%20Brand%20white.svg" alt="qBraid"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/meetiqm.com" alt="IQM Quantum"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/alice-bob.com" alt="Alice & Bob"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/classiq.io" alt="Classiq"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/unitary.fund" alt="Unitary Fund"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/xanadu.ai" alt="Xanadu"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/dwavesys.com" alt="D-Wave"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/mitre.org" alt="MITRE"></div>
     <!-- duplicate for seamless loop -->
-    <div class="sponsor-item"><span>🟢</span> IonQ</div>
-    <div class="sponsor-item"><span>🔵</span> IBM Quantum</div>
-    <div class="sponsor-item"><span>🟣</span> NVIDIA</div>
-    <div class="sponsor-item"><span>⚪</span> QuEra Computing</div>
-    <div class="sponsor-item"><span>🟡</span> Rigetti Computing</div>
-    <div class="sponsor-item"><span>🔴</span> Connected DMV</div>
-    <div class="sponsor-item"><span>🟠</span> MIT iQuHACK</div>
-    <div class="sponsor-item"><span>🔵</span> Amazon Braket</div>
-    <div class="sponsor-item"><span>🟢</span> qBraid</div>
-    <div class="sponsor-item"><span>⚪</span> IQM Quantum</div>
-    <div class="sponsor-item"><span>🟣</span> Alice & Bob</div>
-    <div class="sponsor-item"><span>🟡</span> Classiq</div>
-    <div class="sponsor-item"><span>🔴</span> Unitary Fund</div>
-    <div class="sponsor-item"><span>🟠</span> Xanadu</div>
-    <div class="sponsor-item"><span>🔵</span> D-Wave</div>
-    <div class="sponsor-item"><span>🟢</span> MITRE</div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/ionq.com" alt="IonQ"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/ibm.com" alt="IBM Quantum"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/nvidia.com" alt="NVIDIA"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/quera.com" alt="QuEra Computing"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/rigetti.com" alt="Rigetti Computing"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/connecteddmv.org" alt="Connected DMV"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/mit.edu" alt="MIT iQuHACK"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/amazon.com" alt="Amazon Braket"></div>
+    <div class="sponsor-item"><img src="https://cdn.prod.website-files.com/67766e0e4e4f74f02f5ddaa0/6778da6f69cc7a0553180b7c_Navbar%20Brand%20white.svg" alt="qBraid"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/meetiqm.com" alt="IQM Quantum"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/alice-bob.com" alt="Alice & Bob"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/classiq.io" alt="Classiq"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/unitary.fund" alt="Unitary Fund"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/xanadu.ai" alt="Xanadu"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/dwavesys.com" alt="D-Wave"></div>
+    <div class="sponsor-item"><img src="https://logo.clearbit.com/mitre.org" alt="MITRE"></div>
   </div>
 </div>
 
