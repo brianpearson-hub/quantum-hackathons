@@ -127,7 +127,7 @@
     footer a:hover { color: var(--text); }
     .footer-logo { height: 18px; vertical-align: middle; margin-right: 6px; opacity: .7; }
 
-    @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } .nav-link { display: none; } }
+    @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } .nav-link { display: none; } .stats-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; } .stat-chip { width: 100%; } }
   </style>
 </head>
 <body>
@@ -374,5 +374,6 @@ updateStats(); render();
 </script>
 </body>
 </html>
+
 
 
