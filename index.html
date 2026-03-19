@@ -103,11 +103,11 @@
     .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
 
     /* Sponsor banner */
-    .sponsor-strip { margin: 0 0 0; overflow: hidden; position: relative; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 14px 0; background: rgba(255,255,255,0.02); }
+    .sponsor-strip { margin: 0; overflow: hidden; position: relative; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 12px 0; background: rgba(255,255,255,0.02); }
     .sponsor-strip::before, .sponsor-strip::after { content: ''; position: absolute; top: 0; width: 80px; height: 100%; z-index: 2; }
     .sponsor-strip::before { left: 0; background: linear-gradient(to right, var(--bg), transparent); }
     .sponsor-strip::after { right: 0; background: linear-gradient(to left, var(--bg), transparent); }
-    .sponsor-label { text-align: center; font-size: 15px; font-weight: 800; letter-spacing: -.02em; color: var(--text); margin-bottom: 10px; padding-top: 16px; }
+    .sponsor-label { display: none; }
     .sponsor-track { display: flex; gap: 0; white-space: nowrap; animation: scroll-sponsors 28s linear infinite; width: max-content; }
     .sponsor-track:hover { animation-play-state: paused; }
     @keyframes scroll-sponsors { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
