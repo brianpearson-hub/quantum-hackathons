@@ -103,7 +103,7 @@
     .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
 
     /* Sponsor banner */
-    .sponsor-strip { margin: 0 0 20px; overflow: hidden; position: relative; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 14px 0; background: rgba(255,255,255,0.02); }
+    .sponsor-strip { margin: 0 0 0; overflow: hidden; position: relative; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 14px 0; background: rgba(255,255,255,0.02); }
     .sponsor-strip::before, .sponsor-strip::after { content: ''; position: absolute; top: 0; width: 80px; height: 100%; z-index: 2; }
     .sponsor-strip::before { left: 0; background: linear-gradient(to right, var(--bg), transparent); }
     .sponsor-strip::after { right: 0; background: linear-gradient(to left, var(--bg), transparent); }
@@ -147,22 +147,6 @@
   </div>
 </header>
 
-<div class="controls">
-  <div class="search-wrap">
-    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    <input type="text" id="search" placeholder="Search by name, sponsor, location…" autocomplete="off" />
-  </div>
-  <div class="filter-btns">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="upcoming">Upcoming</button>
-    <button class="filter-btn" data-filter="in-person">In-Person</button>
-    <button class="filter-btn" data-filter="virtual">Virtual</button>
-    <button class="filter-btn" data-filter="hybrid">Hybrid</button>
-    <button class="filter-btn" data-filter="2025">2025</button>
-    <button class="filter-btn" data-filter="2026">2026</button>
-  </div>
-</div>
-
 <div class="sponsor-label">Quantum Ecosystem Partners</div>
 <div class="sponsor-strip">
   <div class="sponsor-track" id="sponsor-track">
@@ -201,6 +185,23 @@
     <div class="sponsor-item"><span>🟢</span> MITRE</div>
   </div>
 </div>
+
+<div class="controls">
+  <div class="search-wrap">
+    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" id="search" placeholder="Search by name, sponsor, location…" autocomplete="off" />
+  </div>
+  <div class="filter-btns">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="upcoming">Upcoming</button>
+    <button class="filter-btn" data-filter="in-person">In-Person</button>
+    <button class="filter-btn" data-filter="virtual">Virtual</button>
+    <button class="filter-btn" data-filter="hybrid">Hybrid</button>
+    <button class="filter-btn" data-filter="2025">2025</button>
+    <button class="filter-btn" data-filter="2026">2026</button>
+  </div>
+</div>
+
 
 <div class="github-banner">
   Powered by the open-source qBraid SDK &nbsp;&middot;&nbsp;
