@@ -5,7 +5,7 @@
   <link rel="shortcut icon" href="favicon.svg">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quantum Hackathon Directory 2024–2026 | qBraid</title>
+  <title>Quantum Hackathon Directory 2023–2026 | qBraid</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
     :root {
@@ -210,6 +210,7 @@
     <button class="filter-btn" data-filter="2025">2025</button>
     <button class="filter-btn" data-filter="2026">2026</button>
     <button class="filter-btn" data-filter="2024">2024</button>
+    <button class="filter-btn" data-filter="2023">2023</button>
   </div>
 </div>
 
@@ -267,7 +268,11 @@ const HACKATHONS = [
   { name:"unitaryHACK 2024", org:"Unitary Fund", year:2024, date:"May 29 - Jun 12, 2024", dateSort:"2024-05-29", location:"Virtual (Global)", format:"virtual", sponsors:["IBM Quantum","AWS","Microsoft","NVIDIA","qBraid","Classiq","QuEra","Pasqal","SandboxAQ","QC Ware"], url:"https://2024.unitaryhack.dev" },
   { name:"UK Quantum Hackathon 2024", org:"National Quantum Computing Centre (NQCC)", year:2024, date:"Jul 22-24, 2024", dateSort:"2024-07-22", location:"University of Warwick, Coventry, UK", format:"in-person", sponsors:["NQCC","UKRI"], url:"https://www.nqcc.ac.uk/uk-quantum-hackathon-2024/" },
   { name:"Global Industry Challenge 2025", org:"Connected DMV / Potomac Quantum Innovation Center", year:2025, date:"Apr 14 - Sep 10, 2025", dateSort:"2025-04-14", location:"Virtual (Global) + Quantum World Congress, Washington DC", format:"hybrid", sponsors:["Wells Fargo","MITRE","JPMorgan Chase","World Bank Group","qBraid","D-Wave","NVIDIA","AWS","QuEra","IQM","IonQ"], url:"https://www.pqic.org/challenge" },
-  { name:"Global Industry Challenge 2026", org:"Connected DMV / Potomac Quantum Innovation Center", year:2026, date:"2026 (dates TBA)", dateSort:"2026-06-01", location:"Virtual (Global) + Quantum World Congress 2026, Washington DC", format:"hybrid", sponsors:["Wells Fargo","MITRE","qBraid","D-Wave","Aqora"], url:"https://www.pqic.org/challenge" }
+  { name:"Global Industry Challenge 2026", org:"Connected DMV / Potomac Quantum Innovation Center", year:2026, date:"2026 (dates TBA)", dateSort:"2026-06-01", location:"Virtual (Global) + Quantum World Congress 2026, Washington DC", format:"hybrid", sponsors:["Wells Fargo","MITRE","qBraid","D-Wave","Aqora"], url:"https://www.pqic.org/challenge" },
+  { name:"iQuHACK 2023", org:"MIT iQuISE", year:2023, date:"Jan 27-29, 2023", dateSort:"2023-01-27", location:"MIT Campus, Cambridge, MA (+ Virtual)", format:"hybrid", sponsors:["IBM Quantum","QuEra","IonQ","Covalent","qBraid","QuSecure","Quantum Machines","HRL"], url:"https://www.iquise.mit.edu/iQuHACK/2023-01-27" },
+  { name:"QHack 2023", org:"Xanadu", year:2023, date:"Feb 13-28, 2023", dateSort:"2023-02-13", location:"Virtual (Global)", format:"virtual", sponsors:["AWS","NVIDIA","IBM Quantum","Classiq","Zapata","Strangeworks","PINQ²"], url:"https://qhack.ai" },
+  { name:"NYUAD Quantum Hackathon for Social Good 2023", org:"NYU Abu Dhabi", year:2023, date:"Apr 27-30, 2023", dateSort:"2023-04-27", location:"NYUAD Conference Center, Abu Dhabi, UAE", format:"in-person", sponsors:["IBM Quantum","qBraid","GESDA","TII","ETH Zurich","EPFL QSE","QWorld","MIT iQuHACK"], url:"https://hackathon.nyuad.nyu.edu/year/2023/" },
+  { name:"unitaryHACK 2023", org:"Unitary Fund", year:2023, date:"May 26 - Jun 13, 2023", dateSort:"2023-05-26", location:"Virtual (Global)", format:"virtual", sponsors:["IBM Quantum","AWS","Microsoft","qBraid","Classiq","QuEra","Pasqal"], url:"https://2023.unitaryhack.dev" }
 ];
 
 const IC = {
@@ -319,6 +324,7 @@ function render(filter='all', query=''){
     if(filter==='2025') return h.year===2025;
     if(filter==='2026') return h.year===2026;
     if(filter==='2024') return h.year===2024;
+    if(filter==='2023') return h.year===2023;
     return true;
   }).sort((a,b)=>{
     const aUpcoming = isUpcoming(a);
@@ -330,11 +336,12 @@ function render(filter='all', query=''){
   });
 
   if(!filtered.length){ main.innerHTML=`<div class="empty"><h3>No hackathons found</h3><p>Try adjusting your search or filters.</p></div>`; return; }
-  const y24=filtered.filter(h=>h.year===2024), y25=filtered.filter(h=>h.year===2025), y26=filtered.filter(h=>h.year===2026);
+  const y23=filtered.filter(h=>h.year===2023), y24=filtered.filter(h=>h.year===2024), y25=filtered.filter(h=>h.year===2025), y26=filtered.filter(h=>h.year===2026);
   let html='';
   if(y26.length) html+=`<div class="year-section"><div class="year-label">2026 &mdash; ${y26.length} event${y26.length!==1?'s':''}</div><div class="grid">${y26.map(renderCard).join('')}</div></div>`;
   if(y25.length) html+=`<div class="year-section"><div class="year-label">2025 &mdash; ${y25.length} event${y25.length!==1?'s':''}</div><div class="grid">${y25.map(renderCard).join('')}</div></div>`;
   if(y24.length) html+=`<div class="year-section"><div class="year-label">2024 &mdash; ${y24.length} event${y24.length!==1?'s':''}</div><div class="grid">${y24.map(renderCard).join('')}</div></div>`;
+  if(y23.length) html+=`<div class="year-section"><div class="year-label">2023 &mdash; ${y23.length} event${y23.length!==1?'s':''}</div><div class="grid">${y23.map(renderCard).join('')}</div></div>`;
   main.innerHTML=html;
 }
 
