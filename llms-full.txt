@@ -1,0 +1,456 @@
+# Quantum Hackathons
+
+> Global directory of past, current, and upcoming quantum computing hackathons, maintained by qBraid.
+
+Source: https://www.quantumhackathons.com | Last generated: 2026-04-20
+
+## About
+
+Quantum Hackathons is an open, community-maintained directory of quantum computing hackathons held around the world. The site is maintained by qBraid, a hardware-agnostic quantum computing platform headquartered in Chicago, Illinois, and serves as a free resource for students, researchers, developers, and industry professionals looking to participate in quantum programming challenges.
+
+Currently tracking 48 events (7 upcoming). Events can be submitted by emailing brian.pearson@qbraid.com.
+
+## Upcoming events
+
+### ETH Quantum Hackathon 2026
+
+- Host: ETH Zürich Quantum Engineering Commission
+- Date: May 8–10, 2026
+- Location: ETH Hönggerberg Campus, Zürich, Switzerland
+- Format: in-person
+- Sponsors: Alice & Bob, Zurich Instruments, IQM, QuEra, Quandela, QCentroid
+- URL: https://qec.amiv.ethz.ch/qhack26/
+
+### Global Industry Challenge 2026
+
+- Host: Connected DMV
+- Date: 2026 (dates TBA)
+- Location: Virtual (Global) + Quantum World Congress 2026, Washington DC
+- Format: hybrid
+- Sponsors: Wells Fargo, MITRE, qBraid, D-Wave, Aqora
+- URL: https://www.pqic.org/challenge
+
+### unitaryHACK 2026
+
+- Host: Unitary Foundation
+- Date: Jun 3-17, 2026
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: Unitary Foundation
+- URL: https://unitaryhack.dev
+
+### NYUAD Quantum Hackathon for Social Good 2026
+
+- Host: NYU Abu Dhabi
+- Date: Aug 27-30, 2026
+- Location: NYUAD Conference Center, Abu Dhabi, UAE
+- Format: in-person
+- Sponsors: IBM Quantum, Google, Microsoft, Sandbox AQ, CERN Open Quantum Institute, qBraid, ETH Zurich, EPFL QSE, MIT iQuHACK
+- URL: https://hackathon.nyuad.nyu.edu/
+
+### Global Quantum + AI Challenge
+
+- Host: The Quantum Insider
+- Date: Apr – Nov 2026
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: AWS, Classiq, South Carolina Quantum, Airbus, Volkswagen Group, Cleveland Clinic, HSBC, E.ON, MITRE
+- URL: https://quantumai.thequantuminsider.com/
+
+### QCUP Hackathon — Fall 2026
+
+- Host: Oak Ridge Leadership Computing Facility
+- Date: Fall 2026 (TBD)
+- Location: Virtual
+- Format: virtual
+- Sponsors: Oak Ridge National Laboratory, Quantinuum, IBM, IQM, IonQ
+- URL: https://www.olcf.ornl.gov/calendar/fall-2026-qcup-hackathon/
+
+### Tri-Co Quantum Hackathon 2026
+
+- Host: Haverford, Swarthmore, Bryn Mawr (proposed)
+- Date: Nov 2026 (proposed)
+- Location: Swarthmore, PA
+- Format: in-person
+- Sponsors: Haverford Innovations Program
+- URL: https://www.swarthmore.edu/center-innovation-leadership/tri-co-hackathon
+
+## Past events
+
+### RPI Quantum Hackathon 2026
+
+- Host: RPI Quantum Computing Club
+- Date: Apr 10–11, 2026
+- Location: Troy, NY (RPI)
+- Format: in-person
+- Sponsors: IBM Quantum, qBraid
+- URL: https://rpi-quantum-hackathon.github.io/
+
+### Quantum UP! Challenge 2026
+
+- Host: UConn Technology Commercialization Services
+- Date: Apr 8, 2026
+- Location: UConn School of Business, Hartford, CT
+- Format: in-person
+- Sponsors: UConn
+- URL: https://www.eventbrite.com/e/2026-quantum-up-challenge-tickets-1983637240384
+
+### YQuantum 2026
+
+- Host: Yale Quantum Institute
+- Date: Apr 4-5, 2026
+- Location: Yale Science Building, 260 Whitney Ave, New Haven, CT
+- Format: in-person
+- Sponsors: QuEra, AWS, Quantinuum, Alice & Bob, BlueQubit, qBraid, State Street, LTIMindtree, Yale Quantum Institute
+- URL: https://www.yquantum.dev/
+
+### Quantum Ideas Factory 2026 — Strasbourg
+
+- Host: European Center for Quantum Sciences (CESQ) / EFEQT / DigiQ
+- Date: Mar 23–26, 2026
+- Location: European Center for Quantum Sciences, Strasbourg, France
+- Format: in-person
+- Sponsors: CESQ, DigiQ, EFEQT
+- URL: https://www.cesq.eu/quantum-ideas-factory-2026/
+
+### Ion Hack 2026
+
+- Host: eleQtron / JUNIQ / Forschungszentrum Jülich
+- Date: Mar 11–13, 2026
+- Location: Forschungszentrum Jülich, Germany
+- Format: in-person
+- Sponsors: eleQtron, JUNIQ, Jülich Supercomputing Centre
+- URL: https://eleqtron.com/en/ion-hack-hackathon-2026/
+
+### Quantum Ideas Factory 2026 — Jena
+
+- Host: University of Jena / Abbe Center of Photonics
+- Date: Spring 2026
+- Location: Abbe Center of Photonics, Jena, Germany
+- Format: in-person
+- Sponsors: University of Jena
+- URL: https://www.asp.uni-jena.de/16236/quantum-ideas-factory-2026
+
+### EPFL Quantum Hackathon 2026
+
+- Host: QPFL / EPFL QSE Center
+- Date: Feb 27 - Mar 1, 2026
+- Location: BC Building, EPFL, Lausanne, Switzerland
+- Format: in-person
+- Sponsors: Quandela, Quobly, Alice & Bob, qBraid, AXA, Zurich Instruments, EPFL QSE
+- URL: https://qpflhackathon.github.io/qpfl.github.io/
+
+### unitaryDESIGN 2026
+
+- Host: Unitary Foundation
+- Date: Feb 16–27, 2026
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: IBM Quantum, DoraHacks, OQD, AWS, Microsoft, QC Ware, SandboxAQ, Quantum Machines, Riverlane, OrangeQS, Mozilla Foundation, Classiq
+- URL: https://unitary.design
+
+### iQuHACK 2026
+
+- Host: MIT Interdisciplinary Quantum Hackathon
+- Date: Feb 2026
+- Location: Cambridge, MA (MIT)
+- Format: hybrid
+- Sponsors: IonQ, QuEra, IBM, Alice & Bob, NVIDIA, BlueQubit, State Street, Classiq
+- URL: https://www.iquise.mit.edu/iQuHACK
+
+### WACQT + IBM Quantum Hackathon 2026
+
+- Host: Wallenberg Centre for Quantum Technology / IBM
+- Date: Jan 24–25, 2026
+- Location: Chalmers University of Technology, Gothenburg, Sweden
+- Format: in-person
+- Sponsors: IBM, WACQT
+- URL: https://www.chalmers.se/en/centres/wacqt/wacqt-quantum-technology-testbed/quantum-hackathon/
+
+### Q2B Hackathon 2025
+
+- Host: QC Ware / Q2B Conference
+- Date: Dec 2025
+- Location: Santa Clara, CA
+- Format: in-person
+- Sponsors: QC Ware, Google, AWS, Quantinuum
+- URL: https://q2b.qcware.com
+
+### Tri-Co Quantum Hackathon 2025
+
+- Host: Haverford, Swarthmore, Bryn Mawr
+- Date: Nov 2025
+- Location: Swarthmore, PA
+- Format: in-person
+- Sponsors: Haverford Innovations Program
+- URL: https://www.swarthmore.edu/center-innovation-leadership/tri-co-hackathon
+
+### QIA Quantum Internet Hackathon 2025
+
+- Host: Quantum Internet Alliance
+- Date: Nov 2025
+- Location: Hybrid – European Nodes
+- Format: hybrid
+- Sponsors: QIA, QuTech, AWS, European Commission
+- URL: https://quantuminternetalliance.org
+
+### MIT Quantum Games Hackathon 2025
+
+- Host: MIT Game Lab / CQE
+- Date: Oct 2025
+- Location: Cambridge, MA
+- Format: in-person
+- Sponsors: IBM Quantum, MIT CQE
+- URL: https://games.mit.edu
+
+### IYQ Quantum Hackathon — Vienna
+
+- Host: International Year of Quantum / IQOQI
+- Date: Oct 2025
+- Location: Vienna, Austria
+- Format: in-person
+- Sponsors: UNESCO, IUPAP, APS, IBM Quantum
+- URL: https://quantum2025.org
+
+### Quandela Quantum Hackathon 2025
+
+- Host: Quandela
+- Date: Summer 2025
+- Location: Paris, France
+- Format: hybrid
+- Sponsors: Quandela, AWS, Pasqal
+- URL: https://quandela.com
+
+### unitaryHACK 2025
+
+- Host: Unitary Foundation
+- Date: May 28 - Jun 11, 2025
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: Moth Quantum, NVIDIA, ErrorCorp, PsiQuantum, Haiqu, IBM Quantum, DoraHacks, OQD, AWS, Microsoft, Pasqal, QC Ware, SandboxAQ, Quantum Machines, Riverlane
+- URL: https://unitaryhack.dev
+
+### ETH Quantum Hackathon 2025
+
+- Host: ETH Zurich Quantum Center
+- Date: May 2025
+- Location: Zurich, Switzerland
+- Format: in-person
+- Sponsors: IBM Quantum, IQM, Quantinuum
+- URL: https://ethquantum.ch
+
+### NYUAD Quantum Hackathon for Social Good 2025
+
+- Host: NYU Abu Dhabi
+- Date: Apr 25-27, 2025
+- Location: Abu Dhabi, UAE
+- Format: in-person
+- Sponsors: IBM Quantum, QC Ware, Classiq
+- URL: https://hackathon.nyuad.nyu.edu/
+
+### Global Industry Challenge 2025
+
+- Host: Connected DMV
+- Date: Apr 14 - Sep 10, 2025
+- Location: Virtual (Global) + Quantum World Congress, Washington DC
+- Format: hybrid
+- Sponsors: Wells Fargo, MITRE, JPMorgan Chase, World Bank Group, qBraid, D-Wave, NVIDIA, AWS, QuEra, IQM, IonQ
+- URL: https://www.pqic.org/challenge
+
+### QAI Venture Hackathon 2025
+
+- Host: CERN / GESDA
+- Date: Apr 2025
+- Location: Geneva, Switzerland (CERN)
+- Format: in-person
+- Sponsors: CERN, GESDA, IBM Quantum, Pasqal
+- URL: https://qai-venture.com
+
+### YQuantum 2025
+
+- Host: Yale Quantum Institute
+- Date: Apr 5–6, 2025
+- Location: New Haven, CT (Yale)
+- Format: in-person
+- Sponsors: IonQ, IBM, Classiq, AWS, Quantinuum
+- URL: https://yquantum.dev
+
+### Quantathon V2
+
+- Host: SC Quantum / Univ. of South Carolina
+- Date: Spring 2025
+- Location: Columbia, SC
+- Format: in-person
+- Sponsors: IBM Quantum, Quantinuum, Rigetti
+- URL: https://scquantum.org
+
+### Classiq Coding Competition 2025
+
+- Host: Classiq Technologies
+- Date: Spring 2025
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: Classiq, IBM, NVIDIA
+- URL: https://classiq.io/competition
+
+### iQuHACK 2025
+
+- Host: MIT Interdisciplinary Quantum Hackathon
+- Date: Feb 1–2, 2025
+- Location: Cambridge, MA (MIT)
+- Format: hybrid
+- Sponsors: IonQ, QuEra, IBM, Classiq, State Street, Alice & Bob, NVIDIA
+- URL: https://www.iquise.mit.edu/iQuHACK
+
+### UK Quantum Hackathon 2024
+
+- Host: National Quantum Computing Centre (NQCC)
+- Date: Jul 22-24, 2024
+- Location: University of Warwick, Coventry, UK
+- Format: in-person
+- Sponsors: NQCC, UKRI
+- URL: https://www.nqcc.ac.uk/uk-quantum-hackathon-2024/
+
+### unitaryHACK 2024
+
+- Host: Unitary Fund
+- Date: May 29 - Jun 12, 2024
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: IBM Quantum, AWS, Microsoft, NVIDIA, qBraid, Classiq, QuEra, Pasqal, SandboxAQ, QC Ware
+- URL: https://2024.unitaryhack.dev
+
+### BIG Quantum Hackathon Paris 2024
+
+- Host: QuantX / Aqora
+- Date: May 25-28, 2024
+- Location: BCG HQ, Paris, France
+- Format: in-person
+- Sponsors: BCG, QuantX, Aqora
+- URL: https://aqora.io/events/bigq-paris-may-2024
+
+### NYUAD Quantum Hackathon for Social Good 2024
+
+- Host: NYU Abu Dhabi
+- Date: Apr 26-28, 2024
+- Location: NYUAD Conference Center, Abu Dhabi, UAE
+- Format: in-person
+- Sponsors: IBM Quantum, Google, Microsoft, qBraid, ETH Zurich, EPFL QSE, GESDA, TII, QWorld, MIT iQuHACK
+- URL: https://hackathon.nyuad.nyu.edu
+
+### YQuantum 2024
+
+- Host: Yale Quantum Institute
+- Date: Apr 13-14, 2024
+- Location: Yale University, New Haven, CT
+- Format: in-person
+- Sponsors: Yale Quantum Institute, IonQ, IBM, Classiq, AWS, Quantinuum
+- URL: https://www.yquantum.dev/2024
+
+### QIA Pan-European Quantum Internet Hackathon 2024
+
+- Host: Quantum Internet Alliance
+- Date: Feb 15-16, 2024
+- Location: Delft / Dresden / Paris / Poznań
+- Format: in-person
+- Sponsors: QIA, RIPE NCC, GÉANT
+- URL: https://quantuminternetalliance.org/quantum-internet-hackathon-2024/
+
+### QHack 2024
+
+- Host: Xanadu
+- Date: Feb 8-22, 2024
+- Location: Xanadu HQ, Toronto (+ Virtual)
+- Format: hybrid
+- Sponsors: AWS, NVIDIA, Denvr Dataworks, PennyLane
+- URL: https://qhack.ai
+
+### iQuHACK 2024
+
+- Host: MIT iQuISE
+- Date: Feb 2-4, 2024
+- Location: MIT Campus, Cambridge, MA (+ Virtual)
+- Format: hybrid
+- Sponsors: IonQ, QuEra, IBM Quantum, Quantinuum, Classiq, qBraid, AWS, Quandela, Moody's, Atom Computing, Microsoft, Unitary Fund
+- URL: https://www.iquise.mit.edu/iQuHACK/2024-02-02
+
+### unitaryHACK 2023
+
+- Host: Unitary Fund
+- Date: May 26 - Jun 13, 2023
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: IBM Quantum, AWS, Microsoft, qBraid, Classiq, QuEra, Pasqal
+- URL: https://2023.unitaryhack.dev
+
+### NYUAD Quantum Hackathon for Social Good 2023
+
+- Host: NYU Abu Dhabi
+- Date: Apr 27-30, 2023
+- Location: NYUAD Conference Center, Abu Dhabi, UAE
+- Format: in-person
+- Sponsors: IBM Quantum, qBraid, GESDA, TII, ETH Zurich, EPFL QSE, QWorld, MIT iQuHACK
+- URL: https://hackathon.nyuad.nyu.edu/
+
+### QHack 2023
+
+- Host: Xanadu
+- Date: Feb 13-28, 2023
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: AWS, NVIDIA, IBM Quantum, Classiq, Zapata, Strangeworks, PINQ²
+- URL: https://qhack.ai
+
+### iQuHACK 2023
+
+- Host: MIT iQuISE
+- Date: Jan 27-29, 2023
+- Location: MIT Campus, Cambridge, MA (+ Virtual)
+- Format: hybrid
+- Sponsors: IBM Quantum, QuEra, IonQ, Covalent, qBraid, QuSecure, Quantum Machines, HRL
+- URL: https://www.iquise.mit.edu/iQuHACK/2023-01-27
+
+### unitaryHACK 2022
+
+- Host: Unitary Fund
+- Date: Jun 3-17, 2022
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: Microsoft Azure Quantum, IBM Quantum, AWS, DoraHacks, Unitary Fund
+- URL: https://2022.unitaryhack.dev
+
+### NYUAD Quantum Hackathon for Social Good 2022
+
+- Host: NYU Abu Dhabi
+- Date: Mar 25-27, 2022
+- Location: NYUAD Conference Center, Abu Dhabi, UAE
+- Format: in-person
+- Sponsors: IBM Quantum, qBraid, AWS, GESDA, ETH Zurich, QWorld
+- URL: https://hackathon.nyuad.nyu.edu/
+
+### QHack 2022
+
+- Host: Xanadu
+- Date: Feb 14-25, 2022
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: AWS, IBM Quantum, QunaSys, Zapata, Classiq, Pasqal, University of Waterloo IQC
+- URL: https://github.com/XanaduAI/QHack2022
+
+### iQuHACK 2022
+
+- Host: MIT iQuISE
+- Date: Jan 28-30, 2022
+- Location: Virtual (Global)
+- Format: virtual
+- Sponsors: QuTech, Microsoft, IonQ, Google, IBM Quantum, HRL, Zapata, Zurich Instruments, QuEra, qBraid, MIT CQE
+- URL: https://www.iquise.mit.edu/iQuHACK/2022-01-28
+
+## How to submit an event
+
+To add a hackathon, email brian.pearson@qbraid.com with the event name, host, dates, format, location, official URL, and a short description.
+
+## Contact
+
+Brian Pearson, Head of Business Development, qBraid
+brian.pearson@qbraid.com
