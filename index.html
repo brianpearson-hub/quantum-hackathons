@@ -21,6 +21,23 @@
   <meta name="twitter:title" content="Quantum Hackathons | Global Directory of Quantum Computing Events" />
   <meta name="twitter:description" content="The global directory of quantum computing hackathons. Browse upcoming events, prizes, sponsors, and hardware partners from across the quantum ecosystem." />
   <meta name="twitter:image" content="https://www.quantumhackathons.com/og-image.png" />
+  <meta name="twitter:image:alt" content="Quantum Hackathons | Global Directory of Quantum Computing Events" />
+
+  <!-- Extended Open Graph and SEO -->
+  <meta property="og:site_name" content="Quantum Hackathons" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image:alt" content="Quantum Hackathons | Global Directory of Quantum Computing Events" />
+  <meta name="theme-color" content="#0b0b12" />
+  <meta name="author" content="qBraid" />
+  <meta name="publisher" content="qBraid" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+
+  <!-- LLM discovery hints (see https://llmstxt.org) -->
+  <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
+  <link rel="alternate" type="text/plain" title="llms-full.txt" href="/llms-full.txt" />
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -270,6 +287,57 @@
 
     @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } .nav-link { display: none; } .stats-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; } .stat-chip { width: 100%; } }
   </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Quantum Hackathons",
+    "alternateName": "Global Directory of Quantum Computing Hackathons",
+    "url": "https://www.quantumhackathons.com/",
+    "description": "Global, community-maintained directory of quantum computing hackathons, maintained by qBraid.",
+    "inLanguage": "en-US",
+    "publisher": {
+      "@type": "Organization",
+      "name": "qBraid",
+      "url": "https://qbraid.com",
+      "logo": "https://www.quantumhackathons.com/logos/qbraid.png"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.quantumhackathons.com/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "qBraid",
+    "url": "https://qbraid.com",
+    "logo": "https://www.quantumhackathons.com/logos/qbraid.png",
+    "description": "Hardware-agnostic quantum computing platform headquartered in Chicago, Illinois, serving over 27,000 developers worldwide.",
+    "foundingLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chicago",
+        "addressRegion": "IL",
+        "addressCountry": "US"
+      }
+    },
+    "sameAs": [
+      "https://github.com/qBraid",
+      "https://www.linkedin.com/company/qbraid"
+    ]
+  }
+  </script>
+
 </head>
 <body>
 
