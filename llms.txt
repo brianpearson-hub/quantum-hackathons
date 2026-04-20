@@ -1,0 +1,41 @@
+# Quantum Hackathons
+
+> Global, community-maintained directory of quantum computing hackathons. Currently tracking 48 events (7 upcoming), maintained by qBraid as an open resource for the quantum developer community.
+
+The directory covers in-person, virtual, and hybrid quantum hackathons hosted by universities, research labs, hardware providers, and foundations. Events span 2022 through 2026. Each listing includes the host organization, dates, format, location, sponsors, and a link to the official event page. New events can be submitted to brian.pearson@qbraid.com.
+
+## Main pages
+
+- [Quantum Hackathons Home](https://www.quantumhackathons.com/): Interactive directory filterable by year, format (in-person, virtual, hybrid), and upcoming vs past.
+- [llms-full.txt](https://www.quantumhackathons.com/llms-full.txt): Expanded directory with every tracked event.
+
+## Upcoming events
+
+- [ETH Quantum Hackathon 2026](https://qec.amiv.ethz.ch/qhack26/): May 8–10, 2026, ETH Hönggerberg Campus, Zürich, Switzerland (in person). Host: ETH Zürich Quantum Engineering Commission.
+- [Global Industry Challenge 2026](https://www.pqic.org/challenge): 2026 (dates TBA), Virtual (Global) + Quantum World Congress 2026, Washington DC (hybrid). Host: Connected DMV.
+- [unitaryHACK 2026](https://unitaryhack.dev): Jun 3-17, 2026, Virtual (Global) (virtual). Host: Unitary Foundation.
+- [NYUAD Quantum Hackathon for Social Good 2026](https://hackathon.nyuad.nyu.edu/): Aug 27-30, 2026, NYUAD Conference Center, Abu Dhabi, UAE (in person). Host: NYU Abu Dhabi.
+- [Global Quantum + AI Challenge](https://quantumai.thequantuminsider.com/): Apr – Nov 2026, Virtual (Global) (virtual). Host: The Quantum Insider.
+- [QCUP Hackathon — Fall 2026](https://www.olcf.ornl.gov/calendar/fall-2026-qcup-hackathon/): Fall 2026 (TBD), Virtual (virtual). Host: Oak Ridge Leadership Computing Facility.
+- [Tri-Co Quantum Hackathon 2026](https://www.swarthmore.edu/center-innovation-leadership/tri-co-hackathon): Nov 2026 (proposed), Swarthmore, PA (in person). Host: Haverford, Swarthmore, Bryn Mawr (proposed).
+
+## Categories
+
+- In-person quantum hackathons
+- Virtual quantum hackathons
+- Hybrid quantum hackathons
+- By year: 2022, 2023, 2024, 2025, 2026
+- By country: Austria, CA, CT, CT (Yale), Delft / Dresden / Paris / Poznań, France, Germany, Hybrid – European Nodes, MA, MA (+ Virtual), MA (MIT), NY (RPI), PA, SC, Sweden, Switzerland, Switzerland (CERN), Toronto (+ Virtual), UAE, UK, Virtual, Virtual (Global), Washington DC
+
+## Related resources
+
+- [qBraid](https://qbraid.com): Quantum computing platform, directory maintainer.
+- [qBraid Lab](https://account.qbraid.com): Cloud quantum development environment, free for hackathon participants.
+- [qBraid SDK](https://github.com/qBraid/qBraid): Open-source, hardware-agnostic quantum SDK.
+- [Year of Illinois Quantum](https://www.yearofquantum.org): Companion community site.
+
+## Optional
+
+- [Submit a hackathon](mailto:brian.pearson@qbraid.com): Add a new event or correction.
+- [qBraid blog](https://qbraid.com/blog)
+- [qBraid Pilots](https://qbraid.com/pilots)
