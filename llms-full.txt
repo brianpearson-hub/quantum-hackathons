@@ -2,7 +2,7 @@
 
 > Global directory of past, current, and upcoming quantum computing hackathons, maintained by qBraid.
 
-Source: https://www.quantumhackathons.com | Last generated: 2026-04-20
+Source: https://www.quantumhackathons.com | Last generated: 2026-04-30
 
 ## About
 
