@@ -1,6 +1,6 @@
 # Quantum Hackathons
 
-> Global, community-maintained directory of quantum computing hackathons. Currently tracking 48 events (7 upcoming), maintained by qBraid as an open resource for the quantum developer community.
+> Global, community-maintained directory of quantum computing hackathons. Currently tracking 52 events (11 upcoming), maintained by qBraid as an open resource for the quantum developer community.
 
 The directory covers in-person, virtual, and hybrid quantum hackathons hosted by universities, research labs, hardware providers, and foundations. Events span 2022 through 2026. Each listing includes the host organization, dates, format, location, sponsors, and a link to the official event page. New events can be submitted to brian.pearson@qbraid.com.
 
@@ -14,6 +14,10 @@ The directory covers in-person, virtual, and hybrid quantum hackathons hosted by
 - [ETH Quantum Hackathon 2026](https://qec.amiv.ethz.ch/qhack26/): May 8–10, 2026, ETH Hönggerberg Campus, Zürich, Switzerland (in person). Host: ETH Zürich Quantum Engineering Commission.
 - [Global Industry Challenge 2026](https://www.pqic.org/challenge): 2026 (dates TBA), Virtual (Global) + Quantum World Congress 2026, Washington DC (hybrid). Host: Connected DMV.
 - [unitaryHACK 2026](https://unitaryhack.dev): Jun 3-17, 2026, Virtual (Global) (virtual). Host: Unitary Foundation.
+- [Quantum Impact Hackathon — Rabat 2026](https://indico.cern.ch/event/1625966/): Jun 23–25, 2026, Faculty of Sciences, University Mohammed V, Rabat, Morocco (in person). Host: Faculty of Sciences, University Mohammed V / UM6P / Open Quantum Institute.
+- [OQI Quantum Hackathon Puebla 2026](https://oqi-hackaton.buap.mx/): Jun 28 – Jul 1, 2026, Centro Cultural Universitario, Puebla, México (in person). Host: University of Puebla (BUAP) / Open Quantum Institute.
+- [Quantathon Costa Rica 2026](https://www.dojocoding.io/hackathons/quantathon): Jul 21–23, 2026, University of Costa Rica, San José, Costa Rica (in person). Host: University of Costa Rica / Dojo Coding / Open Quantum Institute.
+- [QC4SG Hackathon Vietnam 2026](https://vnquantum.org/Event_page/hackathon-qc4sg): Jul 24–28, 2026, Gia Lai Province, Vietnam (in person). Host: Vietnam Quantum Community (VNQuantum) / Open Quantum Institute.
 - [NYUAD Quantum Hackathon for Social Good 2026](https://hackathon.nyuad.nyu.edu/): Aug 27-30, 2026, NYUAD Conference Center, Abu Dhabi, UAE (in person). Host: NYU Abu Dhabi.
 - [Global Quantum + AI Challenge](https://quantumai.thequantuminsider.com/): Apr – Nov 2026, Virtual (Global) (virtual). Host: The Quantum Insider.
 - [QCUP Hackathon — Fall 2026](https://www.olcf.ornl.gov/calendar/fall-2026-qcup-hackathon/): Fall 2026 (TBD), Virtual (virtual). Host: Oak Ridge Leadership Computing Facility.
@@ -25,7 +29,7 @@ The directory covers in-person, virtual, and hybrid quantum hackathons hosted by
 - Virtual quantum hackathons
 - Hybrid quantum hackathons
 - By year: 2022, 2023, 2024, 2025, 2026
-- By country: Austria, CA, CT, CT (Yale), Delft / Dresden / Paris / Poznań, France, Germany, Hybrid – European Nodes, MA, MA (+ Virtual), MA (MIT), NY (RPI), PA, SC, Sweden, Switzerland, Switzerland (CERN), Toronto (+ Virtual), UAE, UK, Virtual, Virtual (Global), Washington DC
+- By country: Austria, CA, CT, CT (Yale), Costa Rica, Delft / Dresden / Paris / Poznań, France, Germany, Hybrid – European Nodes, MA, MA (+ Virtual), MA (MIT), Morocco, México, NY (RPI), PA, SC, Sweden, Switzerland, Switzerland (CERN), Toronto (+ Virtual), UAE, UK, Vietnam, Virtual, Virtual (Global), Washington DC
 
 ## Related resources
 

@@ -2,13 +2,13 @@
 
 > Global directory of past, current, and upcoming quantum computing hackathons, maintained by qBraid.
 
-Source: https://www.quantumhackathons.com | Last generated: 2026-04-30
+Source: https://www.quantumhackathons.com | Last generated: 2026-05-07
 
 ## About
 
 Quantum Hackathons is an open, community-maintained directory of quantum computing hackathons held around the world. The site is maintained by qBraid, a hardware-agnostic quantum computing platform headquartered in Chicago, Illinois, and serves as a free resource for students, researchers, developers, and industry professionals looking to participate in quantum programming challenges.
 
-Currently tracking 48 events (7 upcoming). Events can be submitted by emailing brian.pearson@qbraid.com.
+Currently tracking 52 events (11 upcoming). Events can be submitted by emailing brian.pearson@qbraid.com.
 
 ## Upcoming events
 
@@ -38,6 +38,42 @@ Currently tracking 48 events (7 upcoming). Events can be submitted by emailing b
 - Format: virtual
 - Sponsors: Unitary Foundation
 - URL: https://unitaryhack.dev
+
+### Quantum Impact Hackathon — Rabat 2026
+
+- Host: Faculty of Sciences, University Mohammed V / UM6P / Open Quantum Institute
+- Date: Jun 23–25, 2026
+- Location: Faculty of Sciences, University Mohammed V, Rabat, Morocco
+- Format: in-person
+- Sponsors: Open Quantum Institute (CERN), UM6P, University Mohammed V
+- URL: https://indico.cern.ch/event/1625966/
+
+### OQI Quantum Hackathon Puebla 2026
+
+- Host: University of Puebla (BUAP) / Open Quantum Institute
+- Date: Jun 28 – Jul 1, 2026
+- Location: Centro Cultural Universitario, Puebla, México
+- Format: in-person
+- Sponsors: Open Quantum Institute (CERN), BUAP
+- URL: https://oqi-hackaton.buap.mx/
+
+### Quantathon Costa Rica 2026
+
+- Host: University of Costa Rica / Dojo Coding / Open Quantum Institute
+- Date: Jul 21–23, 2026
+- Location: University of Costa Rica, San José, Costa Rica
+- Format: in-person
+- Sponsors: Open Quantum Institute (CERN), University of Costa Rica, Dojo Coding
+- URL: https://www.dojocoding.io/hackathons/quantathon
+
+### QC4SG Hackathon Vietnam 2026
+
+- Host: Vietnam Quantum Community (VNQuantum) / Open Quantum Institute
+- Date: Jul 24–28, 2026
+- Location: Gia Lai Province, Vietnam
+- Format: in-person
+- Sponsors: Open Quantum Institute (CERN), VNQuantum
+- URL: https://vnquantum.org/Event_page/hackathon-qc4sg
 
 ### NYUAD Quantum Hackathon for Social Good 2026
 
