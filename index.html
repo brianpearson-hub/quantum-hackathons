@@ -379,6 +379,7 @@
     <div class="sponsor-item"><img src="logos/mitre.png" alt="MITRE"></div>
     <div class="sponsor-item"><img src="logos/quandela.png" alt="Quandela"></div>
     <div class="sponsor-item"><img src="logos/quobly.png" alt="Quobly"></div>
+    <div class="sponsor-item"><img src="logos/oqi.png" alt="Open Quantum Institute"></div>
     <div class="sponsor-item"><img src="logos/axa.png" alt="AXA"></div>
     <div class="sponsor-item"><img src="logos/zurich_instruments.png" alt="Zurich Instruments"></div>
     <!-- duplicate for seamless loop -->
@@ -397,6 +398,7 @@
     <div class="sponsor-item"><img src="logos/mitre.png" alt="MITRE"></div>
     <div class="sponsor-item"><img src="logos/quandela.png" alt="Quandela"></div>
     <div class="sponsor-item"><img src="logos/quobly.png" alt="Quobly"></div>
+    <div class="sponsor-item"><img src="logos/oqi.png" alt="Open Quantum Institute"></div>
     <div class="sponsor-item"><img src="logos/axa.png" alt="AXA"></div>
     <div class="sponsor-item"><img src="logos/zurich_instruments.png" alt="Zurich Instruments"></div>
   </div>
@@ -426,7 +428,7 @@
 
 <footer>
   Data from public event listings &nbsp;&middot;&nbsp;
-  Last updated March 2026 &nbsp;&middot;&nbsp;
+  Last updated May 2026 &nbsp;&middot;&nbsp;
   <a href="https://account.qbraid.com" target="_blank">Launch qBraid Lab</a>
   <br style="margin-bottom:6px;">
   Powered by the open-source qBraid SDK &nbsp;&middot;&nbsp;
@@ -448,7 +450,7 @@ const HACKATHONS = [
   { name:"Quantathon V2", org:"SC Quantum / Univ. of South Carolina", year:2025, date:"Spring 2025", dateSort:"2025-03-22", location:"Columbia, SC", format:"in-person", sponsors:["IBM Quantum","Quantinuum","Rigetti"], url:"https://scquantum.org" },
   { name:"YQuantum 2025", org:"Yale Quantum Institute", year:2025, date:"Apr 5–6, 2025", dateSort:"2025-04-05", location:"New Haven, CT (Yale)", format:"in-person", sponsors:["IonQ","IBM","Classiq","AWS","Quantinuum"], url:"https://yquantum.dev" },
   { name:"QAI Venture Hackathon 2025", org:"CERN / GESDA", year:2025, date:"Apr 2025", dateSort:"2025-04-10", location:"Geneva, Switzerland (CERN)", format:"in-person", sponsors:["CERN","GESDA","IBM Quantum","Pasqal"], url:"https://qai-venture.com" },
-  { name:"EPFL Quantum Hackathon 2026", org:"QPFL / EPFL QSE Center", year:2026, date:"Feb 27 - Mar 1, 2026", dateSort:"2026-02-27", location:"BC Building, EPFL, Lausanne, Switzerland", format:"in-person", sponsors:["Quandela","Quobly","Alice & Bob","qBraid","AXA","Zurich Instruments","EPFL QSE"], url:"https://qpflhackathon.github.io/qpfl.github.io/" },
+  { name:"EPFL Quantum Hackathon 2026", org:"QPFL / EPFL QSE Center", year:2026, date:"Feb 27 - Mar 1, 2026", dateSort:"2026-02-27", location:"BC Building, EPFL, Lausanne, Switzerland", format:"in-person", sponsors:["Quandela","Quobly","Alice & Bob","qBraid","AXA","Zurich Instruments","EPFL QSE"], url:"https://qpflhackathon.github.io/qpfl.github.io/", featured:true },
   { name:"ETH Quantum Hackathon 2025", org:"ETH Zurich Quantum Center", year:2025, date:"May 2025", dateSort:"2025-05-10", location:"Zurich, Switzerland", format:"in-person", sponsors:["IBM Quantum","IQM","Quantinuum"], url:"https://ethquantum.ch" },
   { name:"NYUAD Quantum Hackathon for Social Good 2025", org:"NYU Abu Dhabi", year:2025, date:"Apr 25-27, 2025", dateSort:"2025-04-25", location:"Abu Dhabi, UAE", format:"in-person", sponsors:["IBM Quantum","QC Ware","Classiq"], url:"https://hackathon.nyuad.nyu.edu/" },
   { name:"unitaryHACK 2025", org:"Unitary Foundation", year:2025, date:"May 28 - Jun 11, 2025", dateSort:"2025-05-28", location:"Virtual (Global)", format:"virtual", sponsors:["Moth Quantum","NVIDIA","ErrorCorp","PsiQuantum","Haiqu","IBM Quantum","DoraHacks","OQD","AWS","Microsoft","Pasqal","QC Ware","SandboxAQ","Quantum Machines","Riverlane"], url:"https://unitaryhack.dev" },
@@ -461,10 +463,10 @@ const HACKATHONS = [
   { name:"iQuHACK 2026", org:"MIT Interdisciplinary Quantum Hackathon", year:2026, date:"Feb 2026", dateSort:"2026-02-07", location:"Cambridge, MA (MIT)", format:"hybrid", sponsors:["IonQ","QuEra","IBM","Alice & Bob","NVIDIA","BlueQubit","State Street","Classiq"], url:"https://www.iquise.mit.edu/iQuHACK" },
   { name:"unitaryHACK 2026", org:"Unitary Foundation", year:2026, date:"Jun 3-17, 2026", dateSort:"2026-06-03", location:"Virtual (Global)", format:"virtual", sponsors:["Unitary Foundation"], url:"https://unitaryhack.dev" },
   { name:"unitaryDESIGN 2026", org:"Unitary Foundation", year:2026, date:"Feb 16–27, 2026", dateSort:"2026-02-16", location:"Virtual (Global)", format:"virtual", sponsors:["IBM Quantum","DoraHacks","OQD","AWS","Microsoft","QC Ware","SandboxAQ","Quantum Machines","Riverlane","OrangeQS","Mozilla Foundation","Classiq"], url:"https://unitary.design" },
-  { name:"RPI Quantum Hackathon 2026", org:"RPI Quantum Computing Club", year:2026, date:"Apr 10–11, 2026", dateSort:"2026-04-10", location:"Troy, NY (RPI)", format:"in-person", sponsors:["IBM Quantum","qBraid"], url:"https://rpi-quantum-hackathon.github.io/" },
-  { name:"NYUAD Quantum Hackathon for Social Good 2026", org:"NYU Abu Dhabi", year:2026, date:"Aug 27-30, 2026", dateSort:"2026-08-27", location:"NYUAD Conference Center, Abu Dhabi, UAE", format:"in-person", sponsors:["IBM Quantum","Google","Microsoft","Sandbox AQ","CERN Open Quantum Institute","qBraid","ETH Zurich","EPFL QSE","MIT iQuHACK"], url:"https://hackathon.nyuad.nyu.edu/" },
+  { name:"RPI Quantum Hackathon 2026", org:"RPI Quantum Computing Club", year:2026, date:"Apr 10–11, 2026", dateSort:"2026-04-10", location:"Troy, NY (RPI)", format:"in-person", sponsors:["IBM Quantum","qBraid"], url:"https://rpi-quantum-hackathon.github.io/", featured:true },
+  { name:"NYUAD Quantum Hackathon for Social Good 2026", org:"NYU Abu Dhabi", year:2026, date:"Aug 27-30, 2026", dateSort:"2026-08-27", location:"NYUAD Conference Center, Abu Dhabi, UAE", format:"in-person", sponsors:["IBM Quantum","Google","Microsoft","Sandbox AQ","CERN Open Quantum Institute","qBraid","ETH Zurich","EPFL QSE","MIT iQuHACK"], url:"https://hackathon.nyuad.nyu.edu/", featured:true },
   { name:"Tri-Co Quantum Hackathon 2026", org:"Haverford, Swarthmore, Bryn Mawr (proposed)", year:2026, date:"Nov 2026 (proposed)", dateSort:"2026-11-15", location:"Swarthmore, PA", format:"in-person", sponsors:["Haverford Innovations Program"], url:"https://www.swarthmore.edu/center-innovation-leadership/tri-co-hackathon" },
-  { name:"YQuantum 2026", org:"Yale Quantum Institute", year:2026, date:"Apr 4-5, 2026", dateSort:"2026-04-04", location:"Yale Science Building, 260 Whitney Ave, New Haven, CT", format:"in-person", sponsors:["QuEra","AWS","Quantinuum","Alice & Bob","BlueQubit","qBraid","State Street","LTIMindtree","Yale Quantum Institute"], url:"https://www.yquantum.dev/" },
+  { name:"YQuantum 2026", org:"Yale Quantum Institute", year:2026, date:"Apr 4-5, 2026", dateSort:"2026-04-04", location:"Yale Science Building, 260 Whitney Ave, New Haven, CT", format:"in-person", sponsors:["QuEra","AWS","Quantinuum","Alice & Bob","BlueQubit","qBraid","State Street","LTIMindtree","Yale Quantum Institute"], url:"https://www.yquantum.dev/", featured:true },
   { name:"Global Quantum + AI Challenge", org:"The Quantum Insider", year:2026, date:"Apr – Nov 2026", dateSort:"2026-09-30", location:"Virtual (Global)", format:"virtual", sponsors:["AWS","Classiq","South Carolina Quantum","Airbus","Volkswagen Group","Cleveland Clinic","HSBC","E.ON","MITRE"], url:"https://quantumai.thequantuminsider.com/" },
   { name:"Quantum Impact Hackathon — Rabat 2026", org:"Faculty of Sciences, University Mohammed V / UM6P / Open Quantum Institute", year:2026, date:"Jun 23–25, 2026", dateSort:"2026-06-23", location:"Faculty of Sciences, University Mohammed V, Rabat, Morocco", format:"in-person", sponsors:["Open Quantum Institute (CERN)","UM6P","University Mohammed V"], url:"https://indico.cern.ch/event/1625966/" },
   { name:"OQI Quantum Hackathon Puebla 2026", org:"University of Puebla (BUAP) / Open Quantum Institute", year:2026, date:"Jun 28 – Jul 1, 2026", dateSort:"2026-06-28", location:"Centro Cultural Universitario, Puebla, México", format:"in-person", sponsors:["Open Quantum Institute (CERN)","BUAP"], url:"https://oqi-hackaton.buap.mx/" },
@@ -480,7 +482,7 @@ const HACKATHONS = [
   { name:"unitaryHACK 2024", org:"Unitary Fund", year:2024, date:"May 29 - Jun 12, 2024", dateSort:"2024-05-29", location:"Virtual (Global)", format:"virtual", sponsors:["IBM Quantum","AWS","Microsoft","NVIDIA","qBraid","Classiq","QuEra","Pasqal","SandboxAQ","QC Ware"], url:"https://2024.unitaryhack.dev" },
   { name:"UK Quantum Hackathon 2024", org:"National Quantum Computing Centre (NQCC)", year:2024, date:"Jul 22-24, 2024", dateSort:"2024-07-22", location:"University of Warwick, Coventry, UK", format:"in-person", sponsors:["NQCC","UKRI"], url:"https://www.nqcc.ac.uk/uk-quantum-hackathon-2024/" },
   { name:"Global Industry Challenge 2025", org:"Connected DMV", year:2025, date:"Apr 14 - Sep 10, 2025", dateSort:"2025-04-14", location:"Virtual (Global) + Quantum World Congress, Washington DC", format:"hybrid", sponsors:["Wells Fargo","MITRE","JPMorgan Chase","World Bank Group","qBraid","D-Wave","NVIDIA","AWS","QuEra","IQM","IonQ"], url:"https://www.pqic.org/challenge" },
-  { name:"Global Industry Challenge 2026", org:"Connected DMV", year:2026, date:"2026 (dates TBA)", dateSort:"2026-06-01", location:"Virtual (Global) + Quantum World Congress 2026, Washington DC", format:"hybrid", sponsors:["Wells Fargo","MITRE","qBraid","D-Wave","Aqora"], url:"https://www.pqic.org/challenge" },
+  { name:"Global Industry Challenge 2026", org:"Connected DMV", year:2026, date:"2026 (dates TBA)", dateSort:"2026-06-01", location:"Virtual (Global) + Quantum World Congress 2026, Washington DC", format:"hybrid", sponsors:["Wells Fargo","MITRE","qBraid","D-Wave","Aqora"], url:"https://www.pqic.org/challenge", featured:true },
   { name:"iQuHACK 2023", org:"MIT iQuISE", year:2023, date:"Jan 27-29, 2023", dateSort:"2023-01-27", location:"MIT Campus, Cambridge, MA (+ Virtual)", format:"hybrid", sponsors:["IBM Quantum","QuEra","IonQ","Covalent","qBraid","QuSecure","Quantum Machines","HRL"], url:"https://www.iquise.mit.edu/iQuHACK/2023-01-27" },
   { name:"QHack 2023", org:"Xanadu", year:2023, date:"Feb 13-28, 2023", dateSort:"2023-02-13", location:"Virtual (Global)", format:"virtual", sponsors:["AWS","NVIDIA","IBM Quantum","Classiq","Zapata","Strangeworks","PINQ²"], url:"https://qhack.ai" },
   { name:"NYUAD Quantum Hackathon for Social Good 2023", org:"NYU Abu Dhabi", year:2023, date:"Apr 27-30, 2023", dateSort:"2023-04-27", location:"NYUAD Conference Center, Abu Dhabi, UAE", format:"in-person", sponsors:["IBM Quantum","qBraid","GESDA","TII","ETH Zurich","EPFL QSE","QWorld","MIT iQuHACK"], url:"https://hackathon.nyuad.nyu.edu/" },
