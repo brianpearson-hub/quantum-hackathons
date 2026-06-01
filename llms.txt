@@ -29,7 +29,7 @@ The directory covers in-person, virtual, and hybrid quantum hackathons hosted by
 - Virtual quantum hackathons
 - Hybrid quantum hackathons
 - By year: 2022, 2023, 2024, 2025, 2026
-- By country: Austria, CA, CT, CT (Yale), Costa Rica, Delft / Dresden / Paris / Poznań, France, Germany, Hybrid – European Nodes, MA, MA (+ Virtual), MA (MIT), Morocco, México, NY (RPI), PA, SC, Sweden, Switzerland, Switzerland (CERN), Toronto (+ Virtual), UAE, UK, Vietnam, Virtual, Virtual (Global), Washington DC
+- By country: Austria, CA, CT, CT (Yale), Costa Rica, Delft / Dresden / Paris / Poznań, France, Germany, Hybrid – European Nodes, MA, MA (+ Virtual), MA (MIT), Morocco, México, NC (UNC), NY (RPI), PA, SC, Sweden, Switzerland, Switzerland (CERN), Toronto (+ Virtual), UAE, UK, Vietnam, Virtual, Virtual (Global), Washington DC
 
 ## Related resources
 
