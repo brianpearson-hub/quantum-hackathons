@@ -53,8 +53,8 @@
           "@type": "Event",
           "name": "iQuHACK 2026",
           "description": "MIT Interdisciplinary Quantum Hackathon 2026",
-          "startDate": "2026-02-07",
-          "endDate": "2026-02-08",
+          "startDate": "2026-01-30",
+          "endDate": "2026-02-01",
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
           "image": "https://www.quantumhackathons.com/og-image.png",
@@ -122,8 +122,8 @@
           "@type": "Event",
           "name": "NYUAD Quantum Hackathon for Social Good 2026",
           "description": "NYU Abu Dhabi annual quantum hackathon focused on social good applications",
-          "startDate": "2026-04-24",
-          "endDate": "2026-04-26",
+          "startDate": "2026-08-27",
+          "endDate": "2026-08-30",
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
           "image": "https://www.quantumhackathons.com/og-image.png",
@@ -159,6 +159,29 @@
           "organizer": { "@type": "Organization", "name": "Unitary Foundation", "url": "https://unitary.foundation" },
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "url": "https://unitaryhack.dev" },
           "performer": { "@type": "Organization", "name": "Unitary Foundation" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Event",
+          "name": "UK Quantum Hackathon 2026",
+          "description": "NQCC UK Quantum Hackathon at the University of Warwick",
+          "startDate": "2026-08-18",
+          "endDate": "2026-08-20",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "image": "https://www.quantumhackathons.com/og-image.png",
+          "url": "https://www.nqcc.ac.uk/uk-quantum-hackathon-2026/",
+          "location": {
+            "@type": "Place",
+            "name": "University of Warwick",
+            "address": { "@type": "PostalAddress", "addressLocality": "Coventry", "addressCountry": "GB" }
+          },
+          "organizer": { "@type": "Organization", "name": "National Quantum Computing Centre", "url": "https://www.nqcc.ac.uk" },
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP", "url": "https://www.nqcc.ac.uk/uk-quantum-hackathon-2026/" },
+          "performer": { "@type": "Organization", "name": "National Quantum Computing Centre" }
         }
       }
     ]
@@ -428,7 +451,7 @@
 
 <footer>
   Data from public event listings &nbsp;&middot;&nbsp;
-  Last updated May 2026 &nbsp;&middot;&nbsp;
+  Last updated June 2026 &nbsp;&middot;&nbsp;
   <a href="https://account.qbraid.com" target="_blank">Launch qBraid Lab</a>
   <br style="margin-bottom:6px;">
   Powered by the open-source qBraid SDK &nbsp;&middot;&nbsp;
@@ -438,6 +461,9 @@
 <script>
 const TODAY = new Date();
 const HACKATHONS = [
+  { name:"UK Quantum Hackathon 2026", org:"National Quantum Computing Centre (NQCC)", year:2026, date:"Aug 18–20, 2026", dateSort:"2026-08-18", location:"University of Warwick, Coventry, UK", format:"in-person", sponsors:["NQCC","UKRI","SparQ"], url:"https://www.nqcc.ac.uk/uk-quantum-hackathon-2026/" },
+  { name:"Carolina Quantum Hacks 2025", org:"Quantum Computing Club at UNC-Chapel Hill", year:2025, date:"Apr 12–13, 2025", dateSort:"2025-04-12", location:"Chapel Hill, NC (UNC)", format:"in-person", sponsors:["IBM Quantum","UNC Quantum Computing Club"], url:"https://uncqc.carrd.co/" },
+  { name:"Berlin Quantum Hackathon 2026", org:"Kipu Quantum / BERLIN QUANTUM", year:2026, date:"Jan 19 – Mar 5, 2026", dateSort:"2026-01-19", location:"Change Hub Berlin, Berlin, Germany", format:"hybrid", sponsors:["Kipu Quantum","State of Berlin (SenWEB)","Charité","BVG","IBM","IQM"], url:"https://berlinquantumhackathon.com/" },
   { name:"ETH Quantum Hackathon 2026", org:"ETH Zürich Quantum Engineering Commission", year:2026, date:"May 8–10, 2026", dateSort:"2026-05-08", location:"ETH Hönggerberg Campus, Zürich, Switzerland", format:"in-person", sponsors:["Alice & Bob","Zurich Instruments","IQM","QuEra","Quandela","QCentroid"], url:"https://qec.amiv.ethz.ch/qhack26/" },
   { name:"Ion Hack 2026", org:"eleQtron / JUNIQ / Forschungszentrum Jülich", year:2026, date:"Mar 11–13, 2026", dateSort:"2026-03-11", location:"Forschungszentrum Jülich, Germany", format:"in-person", sponsors:["eleQtron","JUNIQ","Jülich Supercomputing Centre"], url:"https://eleqtron.com/en/ion-hack-hackathon-2026/" },
   { name:"Quantum Ideas Factory 2026 — Strasbourg", org:"European Center for Quantum Sciences (CESQ) / EFEQT / DigiQ", year:2026, date:"Mar 23–26, 2026", dateSort:"2026-03-23", location:"European Center for Quantum Sciences, Strasbourg, France", format:"in-person", sponsors:["CESQ","DigiQ","EFEQT"], url:"https://www.cesq.eu/quantum-ideas-factory-2026/" },
@@ -460,7 +486,7 @@ const HACKATHONS = [
   { name:"QIA Quantum Internet Hackathon 2025", org:"Quantum Internet Alliance", year:2025, date:"Nov 2025", dateSort:"2025-11-10", location:"Hybrid – European Nodes", format:"hybrid", sponsors:["QIA","QuTech","AWS","European Commission"], url:"https://quantuminternetalliance.org" },
   { name:"Q2B Hackathon 2025", org:"QC Ware / Q2B Conference", year:2025, date:"Dec 2025", dateSort:"2025-12-08", location:"Santa Clara, CA", format:"in-person", sponsors:["QC Ware","Google","AWS","Quantinuum"], url:"https://q2b.qcware.com" },
   { name:"Tri-Co Quantum Hackathon 2025", org:"Haverford, Swarthmore, Bryn Mawr", year:2025, date:"Nov 2025", dateSort:"2025-11-15", location:"Swarthmore, PA", format:"in-person", sponsors:["Haverford Innovations Program"], url:"https://www.swarthmore.edu/center-innovation-leadership/tri-co-hackathon" },
-  { name:"iQuHACK 2026", org:"MIT Interdisciplinary Quantum Hackathon", year:2026, date:"Feb 2026", dateSort:"2026-02-07", location:"Cambridge, MA (MIT)", format:"hybrid", sponsors:["IonQ","QuEra","IBM","Alice & Bob","NVIDIA","BlueQubit","State Street","Classiq"], url:"https://www.iquise.mit.edu/iQuHACK" },
+  { name:"iQuHACK 2026", org:"MIT Interdisciplinary Quantum Hackathon", year:2026, date:"Jan 30 – Feb 1, 2026", dateSort:"2026-01-30", location:"Cambridge, MA (MIT)", format:"hybrid", sponsors:["IonQ","QuEra","IBM","Alice & Bob","NVIDIA","BlueQubit","State Street","Classiq"], url:"https://www.iquise.mit.edu/iQuHACK" },
   { name:"unitaryHACK 2026", org:"Unitary Foundation", year:2026, date:"Jun 3-17, 2026", dateSort:"2026-06-03", location:"Virtual (Global)", format:"virtual", sponsors:["Unitary Foundation"], url:"https://unitaryhack.dev" },
   { name:"unitaryDESIGN 2026", org:"Unitary Foundation", year:2026, date:"Feb 16–27, 2026", dateSort:"2026-02-16", location:"Virtual (Global)", format:"virtual", sponsors:["IBM Quantum","DoraHacks","OQD","AWS","Microsoft","QC Ware","SandboxAQ","Quantum Machines","Riverlane","OrangeQS","Mozilla Foundation","Classiq"], url:"https://unitary.design" },
   { name:"RPI Quantum Hackathon 2026", org:"RPI Quantum Computing Club", year:2026, date:"Apr 10–11, 2026", dateSort:"2026-04-10", location:"Troy, NY (RPI)", format:"in-person", sponsors:["IBM Quantum","qBraid"], url:"https://rpi-quantum-hackathon.github.io/", featured:true },

@@ -2,24 +2,15 @@
 
 > Global directory of past, current, and upcoming quantum computing hackathons, maintained by qBraid.
 
-Source: https://www.quantumhackathons.com | Last generated: 2026-05-07
+Source: https://www.quantumhackathons.com | Last generated: 2026-06-01
 
 ## About
 
 Quantum Hackathons is an open, community-maintained directory of quantum computing hackathons held around the world. The site is maintained by qBraid, a hardware-agnostic quantum computing platform headquartered in Chicago, Illinois, and serves as a free resource for students, researchers, developers, and industry professionals looking to participate in quantum programming challenges.
 
-Currently tracking 52 events (11 upcoming). Events can be submitted by emailing brian.pearson@qbraid.com.
+Currently tracking 55 events (11 upcoming). Events can be submitted by emailing brian.pearson@qbraid.com.
 
 ## Upcoming events
-
-### ETH Quantum Hackathon 2026
-
-- Host: ETH Zürich Quantum Engineering Commission
-- Date: May 8–10, 2026
-- Location: ETH Hönggerberg Campus, Zürich, Switzerland
-- Format: in-person
-- Sponsors: Alice & Bob, Zurich Instruments, IQM, QuEra, Quandela, QCentroid
-- URL: https://qec.amiv.ethz.ch/qhack26/
 
 ### Global Industry Challenge 2026
 
@@ -75,6 +66,15 @@ Currently tracking 52 events (11 upcoming). Events can be submitted by emailing 
 - Sponsors: Open Quantum Institute (CERN), VNQuantum
 - URL: https://vnquantum.org/Event_page/hackathon-qc4sg
 
+### UK Quantum Hackathon 2026
+
+- Host: National Quantum Computing Centre (NQCC)
+- Date: Aug 18–20, 2026
+- Location: University of Warwick, Coventry, UK
+- Format: in-person
+- Sponsors: NQCC, UKRI, SparQ
+- URL: https://www.nqcc.ac.uk/uk-quantum-hackathon-2026/
+
 ### NYUAD Quantum Hackathon for Social Good 2026
 
 - Host: NYU Abu Dhabi
@@ -112,6 +112,15 @@ Currently tracking 52 events (11 upcoming). Events can be submitted by emailing 
 - URL: https://www.swarthmore.edu/center-innovation-leadership/tri-co-hackathon
 
 ## Past events
+
+### ETH Quantum Hackathon 2026
+
+- Host: ETH Zürich Quantum Engineering Commission
+- Date: May 8–10, 2026
+- Location: ETH Hönggerberg Campus, Zürich, Switzerland
+- Format: in-person
+- Sponsors: Alice & Bob, Zurich Instruments, IQM, QuEra, Quandela, QCentroid
+- URL: https://qec.amiv.ethz.ch/qhack26/
 
 ### RPI Quantum Hackathon 2026
 
@@ -188,7 +197,7 @@ Currently tracking 52 events (11 upcoming). Events can be submitted by emailing 
 ### iQuHACK 2026
 
 - Host: MIT Interdisciplinary Quantum Hackathon
-- Date: Feb 2026
+- Date: Jan 30 – Feb 1, 2026
 - Location: Cambridge, MA (MIT)
 - Format: hybrid
 - Sponsors: IonQ, QuEra, IBM, Alice & Bob, NVIDIA, BlueQubit, State Street, Classiq
@@ -202,6 +211,15 @@ Currently tracking 52 events (11 upcoming). Events can be submitted by emailing 
 - Format: in-person
 - Sponsors: IBM, WACQT
 - URL: https://www.chalmers.se/en/centres/wacqt/wacqt-quantum-technology-testbed/quantum-hackathon/
+
+### Berlin Quantum Hackathon 2026
+
+- Host: Kipu Quantum / BERLIN QUANTUM
+- Date: Jan 19 – Mar 5, 2026
+- Location: Change Hub Berlin, Berlin, Germany
+- Format: hybrid
+- Sponsors: Kipu Quantum, State of Berlin (SenWEB), Charité, BVG, IBM, IQM
+- URL: https://berlinquantumhackathon.com/
 
 ### Q2B Hackathon 2025
 
@@ -292,6 +310,15 @@ Currently tracking 52 events (11 upcoming). Events can be submitted by emailing 
 - Format: hybrid
 - Sponsors: Wells Fargo, MITRE, JPMorgan Chase, World Bank Group, qBraid, D-Wave, NVIDIA, AWS, QuEra, IQM, IonQ
 - URL: https://www.pqic.org/challenge
+
+### Carolina Quantum Hacks 2025
+
+- Host: Quantum Computing Club at UNC-Chapel Hill
+- Date: Apr 12–13, 2025
+- Location: Chapel Hill, NC (UNC)
+- Format: in-person
+- Sponsors: IBM Quantum, UNC Quantum Computing Club
+- URL: https://uncqc.carrd.co/
 
 ### QAI Venture Hackathon 2025
 
