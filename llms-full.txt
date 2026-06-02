@@ -8,7 +8,7 @@ Source: https://www.quantumhackathons.com | Last generated: 2026-06-01
 
 Quantum Hackathons is an open, community-maintained directory of quantum computing hackathons held around the world. The site is maintained by qBraid, a hardware-agnostic quantum computing platform headquartered in Chicago, Illinois, and serves as a free resource for students, researchers, developers, and industry professionals looking to participate in quantum programming challenges.
 
-Currently tracking 55 events (11 upcoming). Events can be submitted by emailing brian.pearson@qbraid.com.
+Currently tracking 56 events (12 upcoming). Events can be submitted by emailing brian.pearson@qbraid.com.
 
 ## Upcoming events
 
@@ -29,6 +29,15 @@ Currently tracking 55 events (11 upcoming). Events can be submitted by emailing 
 - Format: virtual
 - Sponsors: Unitary Foundation
 - URL: https://unitaryhack.dev
+
+### Quantum Hack 2026
+
+- Host: Junction
+- Date: Jun 5–7, 2026
+- Location: Puumiehenkuja 5, Espoo, Finland
+- Format: in-person
+- Sponsors: Junction, IQM, VTT
+- URL: https://hackjunction.app/hackathons/quantum-hack-2026
 
 ### Quantum Impact Hackathon — Rabat 2026
 
