@@ -2,24 +2,15 @@
 
 > Global directory of past, current, and upcoming quantum computing hackathons, maintained by qBraid.
 
-Source: https://www.quantumhackathons.com | Last generated: 2026-06-01
+Source: https://www.quantumhackathons.com | Last generated: 2026-06-02
 
 ## About
 
 Quantum Hackathons is an open, community-maintained directory of quantum computing hackathons held around the world. The site is maintained by qBraid, a hardware-agnostic quantum computing platform headquartered in Chicago, Illinois, and serves as a free resource for students, researchers, developers, and industry professionals looking to participate in quantum programming challenges.
 
-Currently tracking 56 events (12 upcoming). Events can be submitted by emailing brian.pearson@qbraid.com.
+Currently tracking 56 events (11 upcoming). Events can be submitted by emailing brian.pearson@qbraid.com.
 
 ## Upcoming events
-
-### Global Industry Challenge 2026
-
-- Host: Connected DMV
-- Date: 2026 (dates TBA)
-- Location: Virtual (Global) + Quantum World Congress 2026, Washington DC
-- Format: hybrid
-- Sponsors: Wells Fargo, MITRE, qBraid, D-Wave, Aqora
-- URL: https://www.pqic.org/challenge
 
 ### unitaryHACK 2026
 
@@ -121,6 +112,15 @@ Currently tracking 56 events (12 upcoming). Events can be submitted by emailing 
 - URL: https://www.swarthmore.edu/center-innovation-leadership/tri-co-hackathon
 
 ## Past events
+
+### Global Industry Challenge 2026
+
+- Host: Connected DMV
+- Date: 2026 (dates TBA)
+- Location: Virtual (Global) + Quantum World Congress 2026, Washington DC
+- Format: hybrid
+- Sponsors: Wells Fargo, MITRE, qBraid, D-Wave, Aqora
+- URL: https://www.pqic.org/challenge
 
 ### ETH Quantum Hackathon 2026
 

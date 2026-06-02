@@ -1,6 +1,6 @@
 # Quantum Hackathons
 
-> Global, community-maintained directory of quantum computing hackathons. Currently tracking 56 events (12 upcoming), maintained by qBraid as an open resource for the quantum developer community.
+> Global, community-maintained directory of quantum computing hackathons. Currently tracking 56 events (11 upcoming), maintained by qBraid as an open resource for the quantum developer community.
 
 The directory covers in-person, virtual, and hybrid quantum hackathons hosted by universities, research labs, hardware providers, and foundations. Events span 2022 through 2026. Each listing includes the host organization, dates, format, location, sponsors, and a link to the official event page. New events can be submitted to brian.pearson@qbraid.com.
 
@@ -11,7 +11,6 @@ The directory covers in-person, virtual, and hybrid quantum hackathons hosted by
 
 ## Upcoming events
 
-- [Global Industry Challenge 2026](https://www.pqic.org/challenge): 2026 (dates TBA), Virtual (Global) + Quantum World Congress 2026, Washington DC (hybrid). Host: Connected DMV.
 - [unitaryHACK 2026](https://unitaryhack.dev): Jun 3-17, 2026, Virtual (Global) (virtual). Host: Unitary Foundation.
 - [Quantum Hack 2026](https://hackjunction.app/hackathons/quantum-hack-2026): Jun 5–7, 2026, Puumiehenkuja 5, Espoo, Finland (in person). Host: Junction.
 - [Quantum Impact Hackathon — Rabat 2026](https://indico.cern.ch/event/1625966/): Jun 23–25, 2026, Faculty of Sciences, University Mohammed V, Rabat, Morocco (in person). Host: Faculty of Sciences, University Mohammed V / UM6P / Open Quantum Institute.
@@ -30,7 +29,7 @@ The directory covers in-person, virtual, and hybrid quantum hackathons hosted by
 - Virtual quantum hackathons
 - Hybrid quantum hackathons
 - By year: 2022, 2023, 2024, 2025, 2026
-- By country: Austria, CA, CT, CT (Yale), Costa Rica, Delft / Dresden / Paris / Poznań, France, Germany, Hybrid – European Nodes, MA, MA (+ Virtual), MA (MIT), Morocco, México, NC (UNC), NY (RPI), PA, SC, Sweden, Switzerland, Switzerland (CERN), Toronto (+ Virtual), UAE, UK, Vietnam, Virtual, Virtual (Global), Washington DC
+- By country: Austria, CA, CT, CT (Yale), Costa Rica, Delft / Dresden / Paris / Poznań, Finland, France, Germany, Hybrid – European Nodes, MA, MA (+ Virtual), MA (MIT), Morocco, México, NC (UNC), NY (RPI), PA, SC, Sweden, Switzerland, Switzerland (CERN), Toronto (+ Virtual), UAE, UK, Vietnam, Virtual, Virtual (Global), Washington DC
 
 ## Related resources
 
